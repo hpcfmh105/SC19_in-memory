@@ -1,0 +1,2 @@
+/usr/bin/ar cr libnmoments_analysis.a  CMakeFiles/nmoments_analysis.dir/run_analysis.c.o
+/usr/bin/ranlib libnmoments_analysis.a

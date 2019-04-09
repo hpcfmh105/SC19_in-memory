@@ -1,0 +1,33 @@
+#!/bin/bash
+#    Begin PBS directives
+#PBS -A csc143
+#PBS -N mpi_hello 
+#PBS -j oe
+#PBS -q debug
+#PBS -l walltime=00:15:00,nodes=3
+#PBS -l gres=atlas1%atlas2
+#    End PBS directives and begin shell commands
+
+
+#cd /lustre/atlas/proj-shared/csc143/dhuang/workflow-bench-master/all-transports/decaf/test_scripts 
+
+export LD_LIBRARY_PATH=/sw/titan/.swci/0-login/opt/spack/20180315/linux-suse_linux11-x86_64/gcc-4.3.4/python-2.7.9-v6ctjewwdx6k2qs7ublexz7gnx457jo5/lib:/lustre/atlas/proj-shared/csc143/dhuang/sc15/code/boost_1_64_0/install/lib:/lustre/atlas/proj-shared/csc143/dhuang/workflow-bench-master/build/build/lib:/lustre/atlas/proj-shared/csc143/dhuang/sc15/code/evpath/lib:/lustre/atlas/proj-shared/csc143/dhuang/sc15/code/dataspaces-1.7.2/install/lib:/lustre/atlas/proj-shared/csc143/dhuang/sc15/code/adios-1.13.0/install/lib:/opt/cray/mpt/7.6.3/gni/mpich-gnu/5.1/lib:/lustre/atlas/proj-shared/csc143/dhuang/sc15/code/dataspaces-1.7.2/install/lib:/lustre/atlas/proj-shared/csc143/dhuang/sc15/libpng-1.6.36/build/lib:/lustre/atlas/proj-shared/csc143/dhuang/sc15/code/jpeg-6b:/lustre/atlas/proj-shared/csc143/dhuang/lammps-22Aug18/build:/lustre/atlas/proj-shared/csc143/dhuang/sc15/code/decaf/install/lib:/lustre/atlas/proj-shared/csc143/dhuang/sc15/code/libtool-2.4.6/lib:/lustre/atlas/proj-shared/csc143/dhuang/sc15/code/boost_1_64_0/install/lib:/lustre/atlas/proj-shared/csc143/dhuang/sc15/code/jpeg-6b:/lustre/atlas/proj-shared/csc143/dhuang/sc15/code/decaf/install/lib:/lustre/atlas/proj-shared/csc143/dhuang/workflow-bench-master/build/build/lib:/lustre/atlas/proj-shared/csc143/dhuang/sc15/code/evpath/lib:/lustre/atlas/proj-shared/csc143/dhuang/sc15/code/dataspaces-1.7.2/install/lib:/lustre/atlas/proj-shared/csc143/dhuang/sc15/code/adios-1.13.0/install/lib:/opt/cray/mpt/7.6.3/gni/mpich-gnu/5.1/lib:/lustre/atlas/proj-shared/csc143/dhuang/sc15/code/dataspaces-1.7.2/install/lib:/lustre/atlas/proj-shared/csc143/dhuang/sc15/libpng-1.6.36/build/lib:/lustre/atlas/proj-shared/csc143/dhuang/sc15/code/jpeg-6b:/lustre/atlas/proj-shared/csc143/dhuang/lammps-22Aug18/build:/lustre/atlas/proj-shared/csc143/dhuang/sc15/code/decaf/install/lib:/lustre/atlas/proj-shared/csc143/dhuang/sc15/code/libtool-2.4.6/lib:/lustre/atlas/proj-shared/csc143/dhuang/sc15/code/boost_1_64_0/install/lib:/lustre/atlas/proj-shared/csc143/dhuang/sc15/code/jpeg-6b:/lustre/atlas/proj-shared/csc143/dhuang/sc15/code/decaf/install/lib:/sw/xk6/wraprun/0.2.2/sles11.3_python3.4.3_gnu4.9.0/lib:/opt/cray/hdf5/1.10.0.3/GNU/5.1/lib:/opt/cray/netcdf/4.4.1.1.3/GNU/5.1/lib:/opt/cray/fftw/3.3.4.8/interlagos/lib:/opt/cray/rca/1.0.0-2.0502.60530.1.63.gem/lib64:/opt/cray/alps/5.2.4-2.0502.9774.31.12.gem/lib64:/opt/cray/xpmem/0.1-2.0502.64982.5.3.gem/lib64:/opt/cray/dmapp/7.0.1-1.0502.11080.8.74.gem/lib64:/opt/cray/pmi/5.0.12/lib64:/opt/cray/ugni/6.0-1.0502.10863.8.28.gem/lib64:/opt/cray/udreg/2.3.2-1.0502.10518.2.17.gem/lib64:/opt/cray/libsci/16.11.1/GNU/6.1/x86_64/lib:/opt/cray/mpt/7.6.3/gni/mpich-gnu/5.1/lib:/sw/xk6/szip/2.1/sles11.1_gnu4.7.2/lib:/sw/xk6/sz/1.4.11/cle5.2_gnu4.9.3/lib:/sw/xk6/python/3.5.1/sles11.3_gnu4.9.0/lib:/lustre/atlas/sw/xk7/python/3.5.1/sles11.3_gnu4.9.0/lib:/opt/gcc/6.3.0/snos/lib64:/autofs/nccs-svm1_sw/titan/.swci/0-login/opt/spack/20170612/linux-suse_linux11-x86_64/gcc-5.3.0/git-2.13.0-znpqlkovoclvlt5rwm3rkpk7d2m56ez2/lib
+
+#export LD_LIBRARY_PATH=/opt/cray/hdf5/1.10.0.3/GNU/5.1/lib:/opt/cray/netcdf/4.4.1.1.3/GNU/5.1/lib:/opt/cray/fftw/3.3.4.8/interlagos/lib:/opt/cray/rca/1.0.0-2.0502.60530.1.63.gem/lib64:/opt/cray/alps/5.2.4-2.0502.9774.31.12.gem/lib64:/opt/cray/xpmem/0.1-2.0502.64982.5.3.gem/lib64:/opt/cray/dmapp/7.0.1-1.0502.11080.8.74.gem/lib64:/opt/cray/pmi/5.0.12/lib64:/opt/cray/ugni/6.0-1.0502.10863.8.28.gem/lib64:/opt/cray/udreg/2.3.2-1.0502.10518.2.17.gem/lib64:/opt/cray/libsci/16.11.1/GNU/6.1/x86_64/lib:/opt/cray/mpt/7.6.3/gni/mpich-gnu/5.1/lib:/sw/xk6/boost/1.60.0/sles11.3_gnu4.9.0_shared_python343/lib
+
+PBS_O_HOME=${MYPROJ}
+PBS_O_WORKDIR=${MYPROJ}/workflow-bench-master/all-transports/decaf/test_scripts 
+
+module load python wraprun
+cd $PBS_O_WORKDIR
+## order is prod/link/consumer
+MPI_CMD="aprun -n 2 $PBS_O_WORKDIR/hello : -n 5 $PBS_O_WORKDIR/hello : -n 2 $PBS_O_WORKDIR/hello"
+echo launch mpi with cmd $MPI_CMD
+
+$MPI_CMD &> hello.log
+
+## Wait for the entire workflow to finish
+wait
+
+export CRAYPE_LINK_TYPE=
+

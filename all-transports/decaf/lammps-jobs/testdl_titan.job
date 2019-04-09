@@ -1,0 +1,45 @@
+#!/bin/bash
+#    Begin PBS directives
+#PBS -A csc143
+#PBS -N test-dl
+#PBS -j oe
+#PBS -q debug
+#PBS -l walltime=00:15:00,nodes=1
+#PBS -l gres=atlas1%atlas2
+#    End PBS directives and begin shell commands
+
+
+#cd /lustre/atlas/proj-shared/csc143/dhuang/workflow-bench-master/all-transports/decaf/test_scripts 
+
+export LD_LIBRARY_PATH=/lib64:/opt/cray/hdf5/1.10.0.3/GNU/5.1/lib:/opt/cray/netcdf/4.4.1.1.3/GNU/5.1/lib:/opt/cray/fftw/3.3.4.8/interlagos/lib:/opt/cray/rca/1.0.0-2.0502.60530.1.63.gem/lib64:/opt/cray/alps/5.2.4-2.0502.9774.31.12.gem/lib64:/opt/cray/xpmem/0.1-2.0502.64982.5.3.gem/lib64:/opt/cray/dmapp/7.0.1-1.0502.11080.8.74.gem/lib64:/opt/cray/pmi/5.0.12/lib64:/opt/cray/ugni/6.0-1.0502.10863.8.28.gem/lib64:/opt/cray/udreg/2.3.2-1.0502.10518.2.17.gem/lib64:/opt/cray/libsci/16.11.1/GNU/6.1/x86_64/lib:/opt/cray/mpt/7.6.3/gni/mpich-gnu/5.1/lib:/sw/xk6/boost/1.60.0/sles11.3_gnu4.9.0_shared_python343/lib
+
+PBS_O_HOME=${MYPROJ}
+PBS_O_WORKDIR=${MYPROJ}/workflow-bench-master/all-transports/decaf/test_scripts 
+
+cd $PBS_O_WORKDIR
+## order is prod/link/consumer
+MPI_CMD="aprun -n 1  $PBS_O_WORKDIR/a.out"
+echo launch mpi with cmd $MPI_CMD
+
+module unload PrgEnv-pgi/5.2.82
+module load PrgEnv-gnu
+module load python
+module load fftw
+module load cmake3/3.11.3
+module load sz/1.4.11
+module load mxml
+module load szip/2.1
+module load lustredu/1.4
+module load cray-netcdf
+module load cray-hdf5
+module load tmux
+module load forge
+~                   
+module load wraprun
+$MPI_CMD &> testdl.log
+
+## Wait for the entire workflow to finish
+wait
+
+export CRAYPE_LINK_TYPE=
+

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libmod_lammps_decaf_static.a  CMakeFiles/mod_lammps_decaf_static.dir/lammps_decaf.cpp.o
+/usr/bin/ranlib libmod_lammps_decaf_static.a

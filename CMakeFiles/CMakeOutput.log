@@ -1,0 +1,1466 @@
+The system is: Linux - 3.0.101-0.47.106.29-default - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /opt/cray/craype/2.5.13/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/lustre/atlas/proj-shared/csc143/dhuang/workflow-bench-master/CMakeFiles/3.11.3/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /opt/cray/craype/2.5.13/bin/CC 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/lustre/atlas/proj-shared/csc143/dhuang/workflow-bench-master/CMakeFiles/3.11.3/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /lustre/atlas/proj-shared/csc143/dhuang/workflow-bench-master/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_a39e8/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_a39e8.dir/build.make CMakeFiles/cmTC_a39e8.dir/build
+gmake[1]: Entering directory `/lustre/atlas2/csc143/proj-shared/dhuang/workflow-bench-master/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a39e8.dir/testCCompiler.c.o
+/opt/cray/craype/2.5.13/bin/cc    -o CMakeFiles/cmTC_a39e8.dir/testCCompiler.c.o   -c /lustre/atlas/proj-shared/csc143/dhuang/workflow-bench-master/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_a39e8
+/autofs/nccs-svm1_sw/titan/.swci/0-login/opt/spack/20180315/linux-suse_linux11-x86_64/gcc-5.3.0/cmake-3.11.3-f2xxt5vasvlzrefneolaxu4rgko7cjnb/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a39e8.dir/link.txt --verbose=1
+/opt/cray/craype/2.5.13/bin/cc      -dynamic CMakeFiles/cmTC_a39e8.dir/testCCompiler.c.o  -o cmTC_a39e8 
+gmake[1]: Leaving directory `/lustre/atlas2/csc143/proj-shared/dhuang/workflow-bench-master/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /lustre/atlas/proj-shared/csc143/dhuang/workflow-bench-master/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_1aa1e/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_1aa1e.dir/build.make CMakeFiles/cmTC_1aa1e.dir/build
+gmake[1]: Entering directory `/lustre/atlas2/csc143/proj-shared/dhuang/workflow-bench-master/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1aa1e.dir/CMakeCCompilerABI.c.o
+/opt/cray/craype/2.5.13/bin/cc    -o CMakeFiles/cmTC_1aa1e.dir/CMakeCCompilerABI.c.o   -c /autofs/nccs-svm1_sw/titan/.swci/0-login/opt/spack/20180315/linux-suse_linux11-x86_64/gcc-5.3.0/cmake-3.11.3-f2xxt5vasvlzrefneolaxu4rgko7cjnb/share/cmake-3.11/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_1aa1e
+/autofs/nccs-svm1_sw/titan/.swci/0-login/opt/spack/20180315/linux-suse_linux11-x86_64/gcc-5.3.0/cmake-3.11.3-f2xxt5vasvlzrefneolaxu4rgko7cjnb/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1aa1e.dir/link.txt --verbose=1
+/opt/cray/craype/2.5.13/bin/cc     -v -dynamic CMakeFiles/cmTC_1aa1e.dir/CMakeCCompilerABI.c.o  -o cmTC_1aa1e 
+Using built-in specs.
+COLLECT_GCC=/opt/gcc/6.3.0/bin/../snos/bin/gcc
+COLLECT_LTO_WRAPPER=/opt/gcc/6.3.0/snos/libexec/gcc/x86_64-suse-linux/6.3.0/lto-wrapper
+Target: x86_64-suse-linux
+Configured with: ../cray-gcc-6.3.0-201701050407.93fe37becc347/configure --prefix=/opt/gcc/6.3.0/snos --disable-nls --libdir=/opt/gcc/6.3.0/snos/lib --enable-languages=c,c++,fortran --with-gxx-include-dir=/opt/gcc/6.3.0/snos/include/g++ --with-slibdir=/opt/gcc/6.3.0/snos/lib --with-system-zlib --enable-shared --enable-__cxa_atexit --build=x86_64-suse-linux --with-ppl --with-cloog --disable-multilib
+Thread model: posix
+gcc version 6.3.0 20161221 (Cray Inc.) (GCC) 
+COMPILER_PATH=/opt/gcc/6.3.0/snos/libexec/gcc/x86_64-suse-linux/6.3.0/:/opt/gcc/6.3.0/snos/libexec/gcc/x86_64-suse-linux/6.3.0/:/opt/gcc/6.3.0/snos/libexec/gcc/x86_64-suse-linux/:/opt/gcc/6.3.0/snos/lib/gcc/x86_64-suse-linux/6.3.0/:/opt/gcc/6.3.0/snos/lib/gcc/x86_64-suse-linux/
+LIBRARY_PATH=/opt/gcc/6.3.0/snos/lib/gcc/x86_64-suse-linux/6.3.0/:/opt/gcc/6.3.0/snos/lib/gcc/x86_64-suse-linux/6.3.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/autofs/nccs-svm1_sw/titan/.swci/0-login/opt/spack/20170612/linux-suse_linux11-x86_64/gcc-5.3.0/git-2.13.0-znpqlkovoclvlt5rwm3rkpk7d2m56ez2/lib/:/opt/gcc/6.3.0/snos/lib/gcc/x86_64-suse-linux/6.3.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-march=bdver1' '-D' '__CRAYXE' '-D' '__CRAY_INTERLAGOS' '-D' '__CRAYXT_COMPUTE_LINUX_TARGET' '-D' '__TARGET_LINUX__' '-v' '-o' 'cmTC_1aa1e' '-I' '/opt/cray/hdf5/1.10.0.3/GNU/5.1/include' '-I' '/opt/cray/netcdf/4.4.1.1.3/GNU/5.1/include' '-I' '/opt/cray/fftw/3.3.4.8/interlagos/include' '-I' '/opt/cray/libsci/16.11.1/GNU/6.1/x86_64/include' '-I' '/opt/cray/mpt/7.6.3/gni/mpich-gnu/5.1/include' '-I' '/opt/cray/rca/1.0.0-2.0502.60530.1.63.gem/include' '-I' '/opt/cray/alps/5.2.4-2.0502.9774.31.12.gem/include' '-I' '/opt/cray/xpmem/0.1-2.0502.64982.5.3.gem/include' '-I' '/opt/cray/gni-headers/4.0-1.0502.10859.7.8.gem/include' '-I' '/opt/cray/pmi/5.0.12/include' '-I' '/opt/cray/ugni/6.0-1.0502.10863.8.28.gem/include' '-I' '/opt/cray/udreg/2.3.2-1.0502.10518.2.17.gem/include' '-I' '/opt/cray/wlm_detect/1.0-1.0502.64649.2.2.gem/include' '-I' '/opt/cray/krca/1.0.0-2.0502.67049.8.22.gem/include' '-I' '/opt/cray-hss-devel/7.2.0/include' '-L/opt/cray/hdf5/1.10.0.3/GNU/5.1/lib' '-L/opt/cray/netcdf/4.4.1.1.3/GNU/5.1/lib' '-L/opt/cray/fftw/3.3.4.8/interlagos/lib' '-L/opt/cray/libsci/16.11.1/GNU/6.1/x86_64/lib' '-L/opt/cray/dmapp/default/lib64' '-L/opt/cray/mpt/7.6.3/gni/mpich-gnu/5.1/lib' '-L/opt/cray/rca/1.0.0-2.0502.60530.1.63.gem/lib64' '-L/opt/cray/atp/2.1.1/libApp'
+ /opt/gcc/6.3.0/snos/libexec/gcc/x86_64-suse-linux/6.3.0/collect2 -plugin /opt/gcc/6.3.0/snos/libexec/gcc/x86_64-suse-linux/6.3.0/liblto_plugin.so -plugin-opt=/opt/gcc/6.3.0/snos/libexec/gcc/x86_64-suse-linux/6.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccJlrHfX.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_1aa1e /usr/lib/../lib64/crt1.o /usr/lib/../lib64/crti.o /opt/gcc/6.3.0/snos/lib/gcc/x86_64-suse-linux/6.3.0/crtbegin.o -L/opt/cray/hdf5/1.10.0.3/GNU/5.1/lib -L/opt/cray/netcdf/4.4.1.1.3/GNU/5.1/lib -L/opt/cray/fftw/3.3.4.8/interlagos/lib -L/opt/cray/libsci/16.11.1/GNU/6.1/x86_64/lib -L/opt/cray/dmapp/default/lib64 -L/opt/cray/mpt/7.6.3/gni/mpich-gnu/5.1/lib -L/opt/cray/rca/1.0.0-2.0502.60530.1.63.gem/lib64 -L/opt/cray/atp/2.1.1/libApp -L/opt/gcc/6.3.0/snos/lib/gcc/x86_64-suse-linux/6.3.0 -L/opt/gcc/6.3.0/snos/lib/gcc/x86_64-suse-linux/6.3.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/autofs/nccs-svm1_sw/titan/.swci/0-login/opt/spack/20170612/linux-suse_linux11-x86_64/gcc-5.3.0/git-2.13.0-znpqlkovoclvlt5rwm3rkpk7d2m56ez2/lib -L/opt/gcc/6.3.0/snos/lib/gcc/x86_64-suse-linux/6.3.0/../../.. CMakeFiles/cmTC_1aa1e.dir/CMakeCCompilerABI.c.o -rpath=/opt/cray/gcc-libs -Bdynamic --no-as-needed -lAtpSigHandler -lAtpSigHCommData --undefined=_ATP_Data_Globals --undefined=__atpHandlerInstall -lrca --as-needed -lhdf5_hl --no-as-needed --as-needed -lhdf5 --no-as-needed --as-needed -lnetcdf --no-as-needed -lfftw3f_mpi -lfftw3f_threads -lfftw3f -lfftw3_mpi -lfftw3_threads -lfftw3 --as-needed -lsci_gnu_61_mpi --no-as-needed --as-needed -lsci_gnu_61 --no-as-needed --as-needed -lmpich_gnu_51 --no-as-needed --as-needed -lgfortran -lquadmath --no-as-needed --as-needed -lm --no-as-needed --as-needed -lpthread --no-as-needed -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /opt/gcc/6.3.0/snos/lib/gcc/x86_64-suse-linux/6.3.0/crtend.o /usr/lib/../lib64/crtn.o
+COLLECT_GCC_OPTIONS='-march=bdver1' '-D' '__CRAYXE' '-D' '__CRAY_INTERLAGOS' '-D' '__CRAYXT_COMPUTE_LINUX_TARGET' '-D' '__TARGET_LINUX__' '-v' '-o' 'cmTC_1aa1e' '-I' '/opt/cray/hdf5/1.10.0.3/GNU/5.1/include' '-I' '/opt/cray/netcdf/4.4.1.1.3/GNU/5.1/include' '-I' '/opt/cray/fftw/3.3.4.8/interlagos/include' '-I' '/opt/cray/libsci/16.11.1/GNU/6.1/x86_64/include' '-I' '/opt/cray/mpt/7.6.3/gni/mpich-gnu/5.1/include' '-I' '/opt/cray/rca/1.0.0-2.0502.60530.1.63.gem/include' '-I' '/opt/cray/alps/5.2.4-2.0502.9774.31.12.gem/include' '-I' '/opt/cray/xpmem/0.1-2.0502.64982.5.3.gem/include' '-I' '/opt/cray/gni-headers/4.0-1.0502.10859.7.8.gem/include' '-I' '/opt/cray/pmi/5.0.12/include' '-I' '/opt/cray/ugni/6.0-1.0502.10863.8.28.gem/include' '-I' '/opt/cray/udreg/2.3.2-1.0502.10518.2.17.gem/include' '-I' '/opt/cray/wlm_detect/1.0-1.0502.64649.2.2.gem/include' '-I' '/opt/cray/krca/1.0.0-2.0502.67049.8.22.gem/include' '-I' '/opt/cray-hss-devel/7.2.0/include' '-L/opt/cray/hdf5/1.10.0.3/GNU/5.1/lib' '-L/opt/cray/netcdf/4.4.1.1.3/GNU/5.1/lib' '-L/opt/cray/fftw/3.3.4.8/interlagos/lib' '-L/opt/cray/libsci/16.11.1/GNU/6.1/x86_64/lib' '-L/opt/cray/dmapp/default/lib64' '-L/opt/cray/mpt/7.6.3/gni/mpich-gnu/5.1/lib' '-L/opt/cray/rca/1.0.0-2.0502.60530.1.63.gem/lib64' '-L/opt/cray/atp/2.1.1/libApp'
+gmake[1]: Leaving directory `/lustre/atlas2/csc143/proj-shared/dhuang/workflow-bench-master/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /lustre/atlas/proj-shared/csc143/dhuang/workflow-bench-master/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/gmake" "cmTC_1aa1e/fast"]
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTC_1aa1e.dir/build.make CMakeFiles/cmTC_1aa1e.dir/build]
+  ignore line: [gmake[1]: Entering directory `/lustre/atlas2/csc143/proj-shared/dhuang/workflow-bench-master/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_1aa1e.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/opt/cray/craype/2.5.13/bin/cc    -o CMakeFiles/cmTC_1aa1e.dir/CMakeCCompilerABI.c.o   -c /autofs/nccs-svm1_sw/titan/.swci/0-login/opt/spack/20180315/linux-suse_linux11-x86_64/gcc-5.3.0/cmake-3.11.3-f2xxt5vasvlzrefneolaxu4rgko7cjnb/share/cmake-3.11/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_1aa1e]
+  ignore line: [/autofs/nccs-svm1_sw/titan/.swci/0-login/opt/spack/20180315/linux-suse_linux11-x86_64/gcc-5.3.0/cmake-3.11.3-f2xxt5vasvlzrefneolaxu4rgko7cjnb/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1aa1e.dir/link.txt --verbose=1]
+  ignore line: [/opt/cray/craype/2.5.13/bin/cc     -v -dynamic CMakeFiles/cmTC_1aa1e.dir/CMakeCCompilerABI.c.o  -o cmTC_1aa1e ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/opt/gcc/6.3.0/bin/../snos/bin/gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/opt/gcc/6.3.0/snos/libexec/gcc/x86_64-suse-linux/6.3.0/lto-wrapper]
+  ignore line: [Target: x86_64-suse-linux]
+  ignore line: [Configured with: ../cray-gcc-6.3.0-201701050407.93fe37becc347/configure --prefix=/opt/gcc/6.3.0/snos --disable-nls --libdir=/opt/gcc/6.3.0/snos/lib --enable-languages=c,c++,fortran --with-gxx-include-dir=/opt/gcc/6.3.0/snos/include/g++ --with-slibdir=/opt/gcc/6.3.0/snos/lib --with-system-zlib --enable-shared --enable-__cxa_atexit --build=x86_64-suse-linux --with-ppl --with-cloog --disable-multilib]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 6.3.0 20161221 (Cray Inc.) (GCC) ]
+  ignore line: [COMPILER_PATH=/opt/gcc/6.3.0/snos/libexec/gcc/x86_64-suse-linux/6.3.0/:/opt/gcc/6.3.0/snos/libexec/gcc/x86_64-suse-linux/6.3.0/:/opt/gcc/6.3.0/snos/libexec/gcc/x86_64-suse-linux/:/opt/gcc/6.3.0/snos/lib/gcc/x86_64-suse-linux/6.3.0/:/opt/gcc/6.3.0/snos/lib/gcc/x86_64-suse-linux/]
+  ignore line: [LIBRARY_PATH=/opt/gcc/6.3.0/snos/lib/gcc/x86_64-suse-linux/6.3.0/:/opt/gcc/6.3.0/snos/lib/gcc/x86_64-suse-linux/6.3.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/autofs/nccs-svm1_sw/titan/.swci/0-login/opt/spack/20170612/linux-suse_linux11-x86_64/gcc-5.3.0/git-2.13.0-znpqlkovoclvlt5rwm3rkpk7d2m56ez2/lib/:/opt/gcc/6.3.0/snos/lib/gcc/x86_64-suse-linux/6.3.0/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-march=bdver1' '-D' '__CRAYXE' '-D' '__CRAY_INTERLAGOS' '-D' '__CRAYXT_COMPUTE_LINUX_TARGET' '-D' '__TARGET_LINUX__' '-v' '-o' 'cmTC_1aa1e' '-I' '/opt/cray/hdf5/1.10.0.3/GNU/5.1/include' '-I' '/opt/cray/netcdf/4.4.1.1.3/GNU/5.1/include' '-I' '/opt/cray/fftw/3.3.4.8/interlagos/include' '-I' '/opt/cray/libsci/16.11.1/GNU/6.1/x86_64/include' '-I' '/opt/cray/mpt/7.6.3/gni/mpich-gnu/5.1/include' '-I' '/opt/cray/rca/1.0.0-2.0502.60530.1.63.gem/include' '-I' '/opt/cray/alps/5.2.4-2.0502.9774.31.12.gem/include' '-I' '/opt/cray/xpmem/0.1-2.0502.64982.5.3.gem/include' '-I' '/opt/cray/gni-headers/4.0-1.0502.10859.7.8.gem/include' '-I' '/opt/cray/pmi/5.0.12/include' '-I' '/opt/cray/ugni/6.0-1.0502.10863.8.28.gem/include' '-I' '/opt/cray/udreg/2.3.2-1.0502.10518.2.17.gem/include' '-I' '/opt/cray/wlm_detect/1.0-1.0502.64649.2.2.gem/include' '-I' '/opt/cray/krca/1.0.0-2.0502.67049.8.22.gem/include' '-I' '/opt/cray-hss-devel/7.2.0/include' '-L/opt/cray/hdf5/1.10.0.3/GNU/5.1/lib' '-L/opt/cray/netcdf/4.4.1.1.3/GNU/5.1/lib' '-L/opt/cray/fftw/3.3.4.8/interlagos/lib' '-L/opt/cray/libsci/16.11.1/GNU/6.1/x86_64/lib' '-L/opt/cray/dmapp/default/lib64' '-L/opt/cray/mpt/7.6.3/gni/mpich-gnu/5.1/lib' '-L/opt/cray/rca/1.0.0-2.0502.60530.1.63.gem/lib64' '-L/opt/cray/atp/2.1.1/libApp']
+  link line: [ /opt/gcc/6.3.0/snos/libexec/gcc/x86_64-suse-linux/6.3.0/collect2 -plugin /opt/gcc/6.3.0/snos/libexec/gcc/x86_64-suse-linux/6.3.0/liblto_plugin.so -plugin-opt=/opt/gcc/6.3.0/snos/libexec/gcc/x86_64-suse-linux/6.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccJlrHfX.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_1aa1e /usr/lib/../lib64/crt1.o /usr/lib/../lib64/crti.o /opt/gcc/6.3.0/snos/lib/gcc/x86_64-suse-linux/6.3.0/crtbegin.o -L/opt/cray/hdf5/1.10.0.3/GNU/5.1/lib -L/opt/cray/netcdf/4.4.1.1.3/GNU/5.1/lib -L/opt/cray/fftw/3.3.4.8/interlagos/lib -L/opt/cray/libsci/16.11.1/GNU/6.1/x86_64/lib -L/opt/cray/dmapp/default/lib64 -L/opt/cray/mpt/7.6.3/gni/mpich-gnu/5.1/lib -L/opt/cray/rca/1.0.0-2.0502.60530.1.63.gem/lib64 -L/opt/cray/atp/2.1.1/libApp -L/opt/gcc/6.3.0/snos/lib/gcc/x86_64-suse-linux/6.3.0 -L/opt/gcc/6.3.0/snos/lib/gcc/x86_64-suse-linux/6.3.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/autofs/nccs-svm1_sw/titan/.swci/0-login/opt/spack/20170612/linux-suse_linux11-x86_64/gcc-5.3.0/git-2.13.0-znpqlkovoclvlt5rwm3rkpk7d2m56ez2/lib -L/opt/gcc/6.3.0/snos/lib/gcc/x86_64-suse-linux/6.3.0/../../.. CMakeFiles/cmTC_1aa1e.dir/CMakeCCompilerABI.c.o -rpath=/opt/cray/gcc-libs -Bdynamic --no-as-needed -lAtpSigHandler -lAtpSigHCommData --undefined=_ATP_Data_Globals --undefined=__atpHandlerInstall -lrca --as-needed -lhdf5_hl --no-as-needed --as-needed -lhdf5 --no-as-needed --as-needed -lnetcdf --no-as-needed -lfftw3f_mpi -lfftw3f_threads -lfftw3f -lfftw3_mpi -lfftw3_threads -lfftw3 --as-needed -lsci_gnu_61_mpi --no-as-needed --as-needed -lsci_gnu_61 --no-as-needed --as-needed -lmpich_gnu_51 --no-as-needed --as-needed -lgfortran -lquadmath --no-as-needed --as-needed -lm --no-as-needed --as-needed -lpthread --no-as-needed -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /opt/gcc/6.3.0/snos/lib/gcc/x86_64-suse-linux/6.3.0/crtend.o /usr/lib/../lib64/crtn.o]
+    arg [/opt/gcc/6.3.0/snos/libexec/gcc/x86_64-suse-linux/6.3.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/opt/gcc/6.3.0/snos/libexec/gcc/x86_64-suse-linux/6.3.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/opt/gcc/6.3.0/snos/libexec/gcc/x86_64-suse-linux/6.3.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccJlrHfX.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_1aa1e] ==> ignore
+    arg [/usr/lib/../lib64/crt1.o] ==> ignore
+    arg [/usr/lib/../lib64/crti.o] ==> ignore
+    arg [/opt/gcc/6.3.0/snos/lib/gcc/x86_64-suse-linux/6.3.0/crtbegin.o] ==> ignore
+    arg [-L/opt/cray/hdf5/1.10.0.3/GNU/5.1/lib] ==> dir [/opt/cray/hdf5/1.10.0.3/GNU/5.1/lib]
+    arg [-L/opt/cray/netcdf/4.4.1.1.3/GNU/5.1/lib] ==> dir [/opt/cray/netcdf/4.4.1.1.3/GNU/5.1/lib]
+    arg [-L/opt/cray/fftw/3.3.4.8/interlagos/lib] ==> dir [/opt/cray/fftw/3.3.4.8/interlagos/lib]
+    arg [-L/opt/cray/libsci/16.11.1/GNU/6.1/x86_64/lib] ==> dir [/opt/cray/libsci/16.11.1/GNU/6.1/x86_64/lib]
+    arg [-L/opt/cray/dmapp/default/lib64] ==> dir [/opt/cray/dmapp/default/lib64]
+    arg [-L/opt/cray/mpt/7.6.3/gni/mpich-gnu/5.1/lib] ==> dir [/opt/cray/mpt/7.6.3/gni/mpich-gnu/5.1/lib]
+    arg [-L/opt/cray/rca/1.0.0-2.0502.60530.1.63.gem/lib64] ==> dir [/opt/cray/rca/1.0.0-2.0502.60530.1.63.gem/lib64]
+    arg [-L/opt/cray/atp/2.1.1/libApp] ==> dir [/opt/cray/atp/2.1.1/libApp]
+    arg [-L/opt/gcc/6.3.0/snos/lib/gcc/x86_64-suse-linux/6.3.0] ==> dir [/opt/gcc/6.3.0/snos/lib/gcc/x86_64-suse-linux/6.3.0]
+    arg [-L/opt/gcc/6.3.0/snos/lib/gcc/x86_64-suse-linux/6.3.0/../../../../lib64] ==> dir [/opt/gcc/6.3.0/snos/lib/gcc/x86_64-suse-linux/6.3.0/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/autofs/nccs-svm1_sw/titan/.swci/0-login/opt/spack/20170612/linux-suse_linux11-x86_64/gcc-5.3.0/git-2.13.0-znpqlkovoclvlt5rwm3rkpk7d2m56ez2/lib] ==> dir [/autofs/nccs-svm1_sw/titan/.swci/0-login/opt/spack/20170612/linux-suse_linux11-x86_64/gcc-5.3.0/git-2.13.0-znpqlkovoclvlt5rwm3rkpk7d2m56ez2/lib]
+    arg [-L/opt/gcc/6.3.0/snos/lib/gcc/x86_64-suse-linux/6.3.0/../../..] ==> dir [/opt/gcc/6.3.0/snos/lib/gcc/x86_64-suse-linux/6.3.0/../../..]
+    arg [CMakeFiles/cmTC_1aa1e.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-rpath=/opt/cray/gcc-libs] ==> ignore
+    arg [-Bdynamic] ==> ignore
+    arg [--no-as-needed] ==> ignore
+    arg [-lAtpSigHandler] ==> lib [AtpSigHandler]
+    arg [-lAtpSigHCommData] ==> lib [AtpSigHCommData]
+    arg [--undefined=_ATP_Data_Globals] ==> ignore
+    arg [--undefined=__atpHandlerInstall] ==> ignore
+    arg [-lrca] ==> lib [rca]
+    arg [--as-needed] ==> ignore
+    arg [-lhdf5_hl] ==> lib [hdf5_hl]
+    arg [--no-as-needed] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lhdf5] ==> lib [hdf5]
+    arg [--no-as-needed] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lnetcdf] ==> lib [netcdf]
+    arg [--no-as-needed] ==> ignore
+    arg [-lfftw3f_mpi] ==> lib [fftw3f_mpi]
+    arg [-lfftw3f_threads] ==> lib [fftw3f_threads]
+    arg [-lfftw3f] ==> lib [fftw3f]
+    arg [-lfftw3_mpi] ==> lib [fftw3_mpi]
+    arg [-lfftw3_threads] ==> lib [fftw3_threads]
+    arg [-lfftw3] ==> lib [fftw3]
+    arg [--as-needed] ==> ignore
+    arg [-lsci_gnu_61_mpi] ==> lib [sci_gnu_61_mpi]
+    arg [--no-as-needed] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lsci_gnu_61] ==> lib [sci_gnu_61]
+    arg [--no-as-needed] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lmpich_gnu_51] ==> lib [mpich_gnu_51]
+    arg [--no-as-needed] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgfortran] ==> lib [gfortran]
+    arg [-lquadmath] ==> lib [quadmath]
+    arg [--no-as-needed] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lm] ==> lib [m]
+    arg [--no-as-needed] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lpthread] ==> lib [pthread]
+    arg [--no-as-needed] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/opt/gcc/6.3.0/snos/lib/gcc/x86_64-suse-linux/6.3.0/crtend.o] ==> ignore
+    arg [/usr/lib/../lib64/crtn.o] ==> ignore
+  collapse library dir [/opt/cray/hdf5/1.10.0.3/GNU/5.1/lib] ==> [/opt/cray/hdf5/1.10.0.3/GNU/5.1/lib]
+  collapse library dir [/opt/cray/netcdf/4.4.1.1.3/GNU/5.1/lib] ==> [/opt/cray/netcdf/4.4.1.1.3/GNU/5.1/lib]
+  collapse library dir [/opt/cray/fftw/3.3.4.8/interlagos/lib] ==> [/opt/cray/fftw/3.3.4.8/interlagos/lib]
+  collapse library dir [/opt/cray/libsci/16.11.1/GNU/6.1/x86_64/lib] ==> [/opt/cray/libsci/16.11.1/GNU/6.1/x86_64/lib]
+  collapse library dir [/opt/cray/dmapp/default/lib64] ==> [/opt/cray/dmapp/default/lib64]
+  collapse library dir [/opt/cray/mpt/7.6.3/gni/mpich-gnu/5.1/lib] ==> [/opt/cray/mpt/7.6.3/gni/mpich-gnu/5.1/lib]
+  collapse library dir [/opt/cray/rca/1.0.0-2.0502.60530.1.63.gem/lib64] ==> [/opt/cray/rca/1.0.0-2.0502.60530.1.63.gem/lib64]
+  collapse library dir [/opt/cray/atp/2.1.1/libApp] ==> [/opt/cray/atp/2.1.1/libApp]
+  collapse library dir [/opt/gcc/6.3.0/snos/lib/gcc/x86_64-suse-linux/6.3.0] ==> [/opt/gcc/6.3.0/snos/lib/gcc/x86_64-suse-linux/6.3.0]
+  collapse library dir [/opt/gcc/6.3.0/snos/lib/gcc/x86_64-suse-linux/6.3.0/../../../../lib64] ==> [/opt/gcc/6.3.0/snos/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/autofs/nccs-svm1_sw/titan/.swci/0-login/opt/spack/20170612/linux-suse_linux11-x86_64/gcc-5.3.0/git-2.13.0-znpqlkovoclvlt5rwm3rkpk7d2m56ez2/lib] ==> [/autofs/nccs-svm1_sw/titan/.swci/0-login/opt/spack/20170612/linux-suse_linux11-x86_64/gcc-5.3.0/git-2.13.0-znpqlkovoclvlt5rwm3rkpk7d2m56ez2/lib]
+  collapse library dir [/opt/gcc/6.3.0/snos/lib/gcc/x86_64-suse-linux/6.3.0/../../..] ==> [/opt/gcc/6.3.0/snos/lib]
+  implicit libs: [AtpSigHandler;AtpSigHCommData;rca;hdf5_hl;hdf5;netcdf;fftw3f_mpi;fftw3f_threads;fftw3f;fftw3_mpi;fftw3_threads;fftw3;sci_gnu_61_mpi;sci_gnu_61;mpich_gnu_51;gfortran;quadmath;m;pthread;gcc;gcc_s;c;gcc;gcc_s]
+  implicit dirs: [/opt/cray/hdf5/1.10.0.3/GNU/5.1/lib;/opt/cray/netcdf/4.4.1.1.3/GNU/5.1/lib;/opt/cray/fftw/3.3.4.8/interlagos/lib;/opt/cray/libsci/16.11.1/GNU/6.1/x86_64/lib;/opt/cray/dmapp/default/lib64;/opt/cray/mpt/7.6.3/gni/mpich-gnu/5.1/lib;/opt/cray/rca/1.0.0-2.0502.60530.1.63.gem/lib64;/opt/cray/atp/2.1.1/libApp;/opt/gcc/6.3.0/snos/lib/gcc/x86_64-suse-linux/6.3.0;/opt/gcc/6.3.0/snos/lib64;/lib64;/usr/lib64;/autofs/nccs-svm1_sw/titan/.swci/0-login/opt/spack/20170612/linux-suse_linux11-x86_64/gcc-5.3.0/git-2.13.0-znpqlkovoclvlt5rwm3rkpk7d2m56ez2/lib;/opt/gcc/6.3.0/snos/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /lustre/atlas/proj-shared/csc143/dhuang/workflow-bench-master/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_5fc0a/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_5fc0a.dir/build.make CMakeFiles/cmTC_5fc0a.dir/build
+gmake[1]: Entering directory `/lustre/atlas2/csc143/proj-shared/dhuang/workflow-bench-master/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5fc0a.dir/feature_tests.c.o
+/opt/cray/craype/2.5.13/bin/cc   -std=c11 -o CMakeFiles/cmTC_5fc0a.dir/feature_tests.c.o   -c /lustre/atlas/proj-shared/csc143/dhuang/workflow-bench-master/CMakeFiles/feature_tests.c
+Linking C executable cmTC_5fc0a
+/autofs/nccs-svm1_sw/titan/.swci/0-login/opt/spack/20180315/linux-suse_linux11-x86_64/gcc-5.3.0/cmake-3.11.3-f2xxt5vasvlzrefneolaxu4rgko7cjnb/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5fc0a.dir/link.txt --verbose=1
+/opt/cray/craype/2.5.13/bin/cc      -dynamic CMakeFiles/cmTC_5fc0a.dir/feature_tests.c.o  -o cmTC_5fc0a 
+gmake[1]: Leaving directory `/lustre/atlas2/csc143/proj-shared/dhuang/workflow-bench-master/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /lustre/atlas/proj-shared/csc143/dhuang/workflow-bench-master/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_0a86c/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_0a86c.dir/build.make CMakeFiles/cmTC_0a86c.dir/build
+gmake[1]: Entering directory `/lustre/atlas2/csc143/proj-shared/dhuang/workflow-bench-master/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0a86c.dir/feature_tests.c.o
+/opt/cray/craype/2.5.13/bin/cc   -std=c99 -o CMakeFiles/cmTC_0a86c.dir/feature_tests.c.o   -c /lustre/atlas/proj-shared/csc143/dhuang/workflow-bench-master/CMakeFiles/feature_tests.c
+Linking C executable cmTC_0a86c
+/autofs/nccs-svm1_sw/titan/.swci/0-login/opt/spack/20180315/linux-suse_linux11-x86_64/gcc-5.3.0/cmake-3.11.3-f2xxt5vasvlzrefneolaxu4rgko7cjnb/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0a86c.dir/link.txt --verbose=1
+/opt/cray/craype/2.5.13/bin/cc      -dynamic CMakeFiles/cmTC_0a86c.dir/feature_tests.c.o  -o cmTC_0a86c 
+gmake[1]: Leaving directory `/lustre/atlas2/csc143/proj-shared/dhuang/workflow-bench-master/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /lustre/atlas/proj-shared/csc143/dhuang/workflow-bench-master/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_e739f/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_e739f.dir/build.make CMakeFiles/cmTC_e739f.dir/build
+gmake[1]: Entering directory `/lustre/atlas2/csc143/proj-shared/dhuang/workflow-bench-master/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e739f.dir/feature_tests.c.o
+/opt/cray/craype/2.5.13/bin/cc   -std=c90 -o CMakeFiles/cmTC_e739f.dir/feature_tests.c.o   -c /lustre/atlas/proj-shared/csc143/dhuang/workflow-bench-master/CMakeFiles/feature_tests.c
+Linking C executable cmTC_e739f
+/autofs/nccs-svm1_sw/titan/.swci/0-login/opt/spack/20180315/linux-suse_linux11-x86_64/gcc-5.3.0/cmake-3.11.3-f2xxt5vasvlzrefneolaxu4rgko7cjnb/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e739f.dir/link.txt --verbose=1
+/opt/cray/craype/2.5.13/bin/cc      -dynamic CMakeFiles/cmTC_e739f.dir/feature_tests.c.o  -o cmTC_e739f 
+gmake[1]: Leaving directory `/lustre/atlas2/csc143/proj-shared/dhuang/workflow-bench-master/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /lustre/atlas/proj-shared/csc143/dhuang/workflow-bench-master/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_96ccd/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_96ccd.dir/build.make CMakeFiles/cmTC_96ccd.dir/build
+gmake[1]: Entering directory `/lustre/atlas2/csc143/proj-shared/dhuang/workflow-bench-master/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_96ccd.dir/testCXXCompiler.cxx.o
+/opt/cray/craype/2.5.13/bin/CC     -o CMakeFiles/cmTC_96ccd.dir/testCXXCompiler.cxx.o -c /lustre/atlas/proj-shared/csc143/dhuang/workflow-bench-master/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_96ccd
+/autofs/nccs-svm1_sw/titan/.swci/0-login/opt/spack/20180315/linux-suse_linux11-x86_64/gcc-5.3.0/cmake-3.11.3-f2xxt5vasvlzrefneolaxu4rgko7cjnb/bin/cmake -E cmake_link_script CMakeFiles/cmTC_96ccd.dir/link.txt --verbose=1
+/opt/cray/craype/2.5.13/bin/CC       -dynamic CMakeFiles/cmTC_96ccd.dir/testCXXCompiler.cxx.o  -o cmTC_96ccd 
+gmake[1]: Leaving directory `/lustre/atlas2/csc143/proj-shared/dhuang/workflow-bench-master/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /lustre/atlas/proj-shared/csc143/dhuang/workflow-bench-master/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_4a508/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_4a508.dir/build.make CMakeFiles/cmTC_4a508.dir/build
+gmake[1]: Entering directory `/lustre/atlas2/csc143/proj-shared/dhuang/workflow-bench-master/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_4a508.dir/CMakeCXXCompilerABI.cpp.o
+/opt/cray/craype/2.5.13/bin/CC     -o CMakeFiles/cmTC_4a508.dir/CMakeCXXCompilerABI.cpp.o -c /autofs/nccs-svm1_sw/titan/.swci/0-login/opt/spack/20180315/linux-suse_linux11-x86_64/gcc-5.3.0/cmake-3.11.3-f2xxt5vasvlzrefneolaxu4rgko7cjnb/share/cmake-3.11/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_4a508
+/autofs/nccs-svm1_sw/titan/.swci/0-login/opt/spack/20180315/linux-suse_linux11-x86_64/gcc-5.3.0/cmake-3.11.3-f2xxt5vasvlzrefneolaxu4rgko7cjnb/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4a508.dir/link.txt --verbose=1
+/opt/cray/craype/2.5.13/bin/CC      -v -dynamic CMakeFiles/cmTC_4a508.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_4a508 
+Using built-in specs.
+COLLECT_GCC=/opt/gcc/6.3.0/bin/../snos/bin/g++
+COLLECT_LTO_WRAPPER=/opt/gcc/6.3.0/snos/libexec/gcc/x86_64-suse-linux/6.3.0/lto-wrapper
+Target: x86_64-suse-linux
+Configured with: ../cray-gcc-6.3.0-201701050407.93fe37becc347/configure --prefix=/opt/gcc/6.3.0/snos --disable-nls --libdir=/opt/gcc/6.3.0/snos/lib --enable-languages=c,c++,fortran --with-gxx-include-dir=/opt/gcc/6.3.0/snos/include/g++ --with-slibdir=/opt/gcc/6.3.0/snos/lib --with-system-zlib --enable-shared --enable-__cxa_atexit --build=x86_64-suse-linux --with-ppl --with-cloog --disable-multilib
+Thread model: posix
+gcc version 6.3.0 20161221 (Cray Inc.) (GCC) 
+COMPILER_PATH=/opt/gcc/6.3.0/snos/libexec/gcc/x86_64-suse-linux/6.3.0/:/opt/gcc/6.3.0/snos/libexec/gcc/x86_64-suse-linux/6.3.0/:/opt/gcc/6.3.0/snos/libexec/gcc/x86_64-suse-linux/:/opt/gcc/6.3.0/snos/lib/gcc/x86_64-suse-linux/6.3.0/:/opt/gcc/6.3.0/snos/lib/gcc/x86_64-suse-linux/
+LIBRARY_PATH=/opt/gcc/6.3.0/snos/lib/gcc/x86_64-suse-linux/6.3.0/:/opt/gcc/6.3.0/snos/lib/gcc/x86_64-suse-linux/6.3.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/autofs/nccs-svm1_sw/titan/.swci/0-login/opt/spack/20170612/linux-suse_linux11-x86_64/gcc-5.3.0/git-2.13.0-znpqlkovoclvlt5rwm3rkpk7d2m56ez2/lib/:/opt/gcc/6.3.0/snos/lib/gcc/x86_64-suse-linux/6.3.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-march=bdver1' '-D' '__CRAYXE' '-D' '__CRAY_INTERLAGOS' '-D' '__CRAYXT_COMPUTE_LINUX_TARGET' '-D' '__TARGET_LINUX__' '-v' '-o' 'cmTC_4a508' '-I' '/opt/cray/hdf5/1.10.0.3/GNU/5.1/include' '-I' '/opt/cray/netcdf/4.4.1.1.3/GNU/5.1/include' '-I' '/opt/cray/fftw/3.3.4.8/interlagos/include' '-I' '/opt/cray/libsci/16.11.1/GNU/6.1/x86_64/include' '-I' '/opt/cray/mpt/7.6.3/gni/mpich-gnu/5.1/include' '-I' '/opt/cray/rca/1.0.0-2.0502.60530.1.63.gem/include' '-I' '/opt/cray/alps/5.2.4-2.0502.9774.31.12.gem/include' '-I' '/opt/cray/xpmem/0.1-2.0502.64982.5.3.gem/include' '-I' '/opt/cray/gni-headers/4.0-1.0502.10859.7.8.gem/include' '-I' '/opt/cray/pmi/5.0.12/include' '-I' '/opt/cray/ugni/6.0-1.0502.10863.8.28.gem/include' '-I' '/opt/cray/udreg/2.3.2-1.0502.10518.2.17.gem/include' '-I' '/opt/cray/wlm_detect/1.0-1.0502.64649.2.2.gem/include' '-I' '/opt/cray/krca/1.0.0-2.0502.67049.8.22.gem/include' '-I' '/opt/cray-hss-devel/7.2.0/include' '-L/opt/cray/hdf5/1.10.0.3/GNU/5.1/lib' '-L/opt/cray/netcdf/4.4.1.1.3/GNU/5.1/lib' '-L/opt/cray/fftw/3.3.4.8/interlagos/lib' '-L/opt/cray/libsci/16.11.1/GNU/6.1/x86_64/lib' '-L/opt/cray/dmapp/default/lib64' '-L/opt/cray/mpt/7.6.3/gni/mpich-gnu/5.1/lib' '-L/opt/cray/dmapp/default/lib64' '-L/opt/cray/mpt/7.6.3/gni/mpich-gnu/5.1/lib' '-L/opt/cray/rca/1.0.0-2.0502.60530.1.63.gem/lib64' '-L/opt/cray/atp/2.1.1/libApp' '-shared-libgcc'
+ /opt/gcc/6.3.0/snos/libexec/gcc/x86_64-suse-linux/6.3.0/collect2 -plugin /opt/gcc/6.3.0/snos/libexec/gcc/x86_64-suse-linux/6.3.0/liblto_plugin.so -plugin-opt=/opt/gcc/6.3.0/snos/libexec/gcc/x86_64-suse-linux/6.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cckCgUiP.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_4a508 /usr/lib/../lib64/crt1.o /usr/lib/../lib64/crti.o /opt/gcc/6.3.0/snos/lib/gcc/x86_64-suse-linux/6.3.0/crtbegin.o -L/opt/cray/hdf5/1.10.0.3/GNU/5.1/lib -L/opt/cray/netcdf/4.4.1.1.3/GNU/5.1/lib -L/opt/cray/fftw/3.3.4.8/interlagos/lib -L/opt/cray/libsci/16.11.1/GNU/6.1/x86_64/lib -L/opt/cray/dmapp/default/lib64 -L/opt/cray/mpt/7.6.3/gni/mpich-gnu/5.1/lib -L/opt/cray/dmapp/default/lib64 -L/opt/cray/mpt/7.6.3/gni/mpich-gnu/5.1/lib -L/opt/cray/rca/1.0.0-2.0502.60530.1.63.gem/lib64 -L/opt/cray/atp/2.1.1/libApp -L/opt/gcc/6.3.0/snos/lib/gcc/x86_64-suse-linux/6.3.0 -L/opt/gcc/6.3.0/snos/lib/gcc/x86_64-suse-linux/6.3.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/autofs/nccs-svm1_sw/titan/.swci/0-login/opt/spack/20170612/linux-suse_linux11-x86_64/gcc-5.3.0/git-2.13.0-znpqlkovoclvlt5rwm3rkpk7d2m56ez2/lib -L/opt/gcc/6.3.0/snos/lib/gcc/x86_64-suse-linux/6.3.0/../../.. CMakeFiles/cmTC_4a508.dir/CMakeCXXCompilerABI.cpp.o -rpath=/opt/cray/gcc-libs -Bdynamic --no-as-needed -lAtpSigHandler -lAtpSigHCommData --undefined=_ATP_Data_Globals --undefined=__atpHandlerInstall -lrca --as-needed -lhdf5_hl --no-as-needed --as-needed -lhdf5 --no-as-needed --as-needed -lhdf5_hl_cpp --no-as-needed --as-needed -lhdf5_cpp --no-as-needed --as-needed -lnetcdf --no-as-needed --as-needed -lnetcdf_c++4 --no-as-needed -lfftw3f_mpi -lfftw3f_threads -lfftw3f -lfftw3_mpi -lfftw3_threads -lfftw3 --as-needed -lsci_gnu_61_mpi --no-as-needed --as-needed -lsci_gnu_61 --no-as-needed --as-needed -lmpich_gnu_51 --no-as-needed --as-needed -lmpichcxx_gnu_51 --no-as-needed --as-needed -lgfortran -lquadmath --no-as-needed --as-needed -lm --no-as-needed --as-needed -lpthread --no-as-needed -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /opt/gcc/6.3.0/snos/lib/gcc/x86_64-suse-linux/6.3.0/crtend.o /usr/lib/../lib64/crtn.o
+COLLECT_GCC_OPTIONS='-march=bdver1' '-D' '__CRAYXE' '-D' '__CRAY_INTERLAGOS' '-D' '__CRAYXT_COMPUTE_LINUX_TARGET' '-D' '__TARGET_LINUX__' '-v' '-o' 'cmTC_4a508' '-I' '/opt/cray/hdf5/1.10.0.3/GNU/5.1/include' '-I' '/opt/cray/netcdf/4.4.1.1.3/GNU/5.1/include' '-I' '/opt/cray/fftw/3.3.4.8/interlagos/include' '-I' '/opt/cray/libsci/16.11.1/GNU/6.1/x86_64/include' '-I' '/opt/cray/mpt/7.6.3/gni/mpich-gnu/5.1/include' '-I' '/opt/cray/rca/1.0.0-2.0502.60530.1.63.gem/include' '-I' '/opt/cray/alps/5.2.4-2.0502.9774.31.12.gem/include' '-I' '/opt/cray/xpmem/0.1-2.0502.64982.5.3.gem/include' '-I' '/opt/cray/gni-headers/4.0-1.0502.10859.7.8.gem/include' '-I' '/opt/cray/pmi/5.0.12/include' '-I' '/opt/cray/ugni/6.0-1.0502.10863.8.28.gem/include' '-I' '/opt/cray/udreg/2.3.2-1.0502.10518.2.17.gem/include' '-I' '/opt/cray/wlm_detect/1.0-1.0502.64649.2.2.gem/include' '-I' '/opt/cray/krca/1.0.0-2.0502.67049.8.22.gem/include' '-I' '/opt/cray-hss-devel/7.2.0/include' '-L/opt/cray/hdf5/1.10.0.3/GNU/5.1/lib' '-L/opt/cray/netcdf/4.4.1.1.3/GNU/5.1/lib' '-L/opt/cray/fftw/3.3.4.8/interlagos/lib' '-L/opt/cray/libsci/16.11.1/GNU/6.1/x86_64/lib' '-L/opt/cray/dmapp/default/lib64' '-L/opt/cray/mpt/7.6.3/gni/mpich-gnu/5.1/lib' '-L/opt/cray/dmapp/default/lib64' '-L/opt/cray/mpt/7.6.3/gni/mpich-gnu/5.1/lib' '-L/opt/cray/rca/1.0.0-2.0502.60530.1.63.gem/lib64' '-L/opt/cray/atp/2.1.1/libApp' '-shared-libgcc'
+gmake[1]: Leaving directory `/lustre/atlas2/csc143/proj-shared/dhuang/workflow-bench-master/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /lustre/atlas/proj-shared/csc143/dhuang/workflow-bench-master/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/gmake" "cmTC_4a508/fast"]
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTC_4a508.dir/build.make CMakeFiles/cmTC_4a508.dir/build]
+  ignore line: [gmake[1]: Entering directory `/lustre/atlas2/csc143/proj-shared/dhuang/workflow-bench-master/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_4a508.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/opt/cray/craype/2.5.13/bin/CC     -o CMakeFiles/cmTC_4a508.dir/CMakeCXXCompilerABI.cpp.o -c /autofs/nccs-svm1_sw/titan/.swci/0-login/opt/spack/20180315/linux-suse_linux11-x86_64/gcc-5.3.0/cmake-3.11.3-f2xxt5vasvlzrefneolaxu4rgko7cjnb/share/cmake-3.11/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_4a508]
+  ignore line: [/autofs/nccs-svm1_sw/titan/.swci/0-login/opt/spack/20180315/linux-suse_linux11-x86_64/gcc-5.3.0/cmake-3.11.3-f2xxt5vasvlzrefneolaxu4rgko7cjnb/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4a508.dir/link.txt --verbose=1]
+  ignore line: [/opt/cray/craype/2.5.13/bin/CC      -v -dynamic CMakeFiles/cmTC_4a508.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_4a508 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/opt/gcc/6.3.0/bin/../snos/bin/g++]
+  ignore line: [COLLECT_LTO_WRAPPER=/opt/gcc/6.3.0/snos/libexec/gcc/x86_64-suse-linux/6.3.0/lto-wrapper]
+  ignore line: [Target: x86_64-suse-linux]
+  ignore line: [Configured with: ../cray-gcc-6.3.0-201701050407.93fe37becc347/configure --prefix=/opt/gcc/6.3.0/snos --disable-nls --libdir=/opt/gcc/6.3.0/snos/lib --enable-languages=c,c++,fortran --with-gxx-include-dir=/opt/gcc/6.3.0/snos/include/g++ --with-slibdir=/opt/gcc/6.3.0/snos/lib --with-system-zlib --enable-shared --enable-__cxa_atexit --build=x86_64-suse-linux --with-ppl --with-cloog --disable-multilib]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 6.3.0 20161221 (Cray Inc.) (GCC) ]
+  ignore line: [COMPILER_PATH=/opt/gcc/6.3.0/snos/libexec/gcc/x86_64-suse-linux/6.3.0/:/opt/gcc/6.3.0/snos/libexec/gcc/x86_64-suse-linux/6.3.0/:/opt/gcc/6.3.0/snos/libexec/gcc/x86_64-suse-linux/:/opt/gcc/6.3.0/snos/lib/gcc/x86_64-suse-linux/6.3.0/:/opt/gcc/6.3.0/snos/lib/gcc/x86_64-suse-linux/]
+  ignore line: [LIBRARY_PATH=/opt/gcc/6.3.0/snos/lib/gcc/x86_64-suse-linux/6.3.0/:/opt/gcc/6.3.0/snos/lib/gcc/x86_64-suse-linux/6.3.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/autofs/nccs-svm1_sw/titan/.swci/0-login/opt/spack/20170612/linux-suse_linux11-x86_64/gcc-5.3.0/git-2.13.0-znpqlkovoclvlt5rwm3rkpk7d2m56ez2/lib/:/opt/gcc/6.3.0/snos/lib/gcc/x86_64-suse-linux/6.3.0/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-march=bdver1' '-D' '__CRAYXE' '-D' '__CRAY_INTERLAGOS' '-D' '__CRAYXT_COMPUTE_LINUX_TARGET' '-D' '__TARGET_LINUX__' '-v' '-o' 'cmTC_4a508' '-I' '/opt/cray/hdf5/1.10.0.3/GNU/5.1/include' '-I' '/opt/cray/netcdf/4.4.1.1.3/GNU/5.1/include' '-I' '/opt/cray/fftw/3.3.4.8/interlagos/include' '-I' '/opt/cray/libsci/16.11.1/GNU/6.1/x86_64/include' '-I' '/opt/cray/mpt/7.6.3/gni/mpich-gnu/5.1/include' '-I' '/opt/cray/rca/1.0.0-2.0502.60530.1.63.gem/include' '-I' '/opt/cray/alps/5.2.4-2.0502.9774.31.12.gem/include' '-I' '/opt/cray/xpmem/0.1-2.0502.64982.5.3.gem/include' '-I' '/opt/cray/gni-headers/4.0-1.0502.10859.7.8.gem/include' '-I' '/opt/cray/pmi/5.0.12/include' '-I' '/opt/cray/ugni/6.0-1.0502.10863.8.28.gem/include' '-I' '/opt/cray/udreg/2.3.2-1.0502.10518.2.17.gem/include' '-I' '/opt/cray/wlm_detect/1.0-1.0502.64649.2.2.gem/include' '-I' '/opt/cray/krca/1.0.0-2.0502.67049.8.22.gem/include' '-I' '/opt/cray-hss-devel/7.2.0/include' '-L/opt/cray/hdf5/1.10.0.3/GNU/5.1/lib' '-L/opt/cray/netcdf/4.4.1.1.3/GNU/5.1/lib' '-L/opt/cray/fftw/3.3.4.8/interlagos/lib' '-L/opt/cray/libsci/16.11.1/GNU/6.1/x86_64/lib' '-L/opt/cray/dmapp/default/lib64' '-L/opt/cray/mpt/7.6.3/gni/mpich-gnu/5.1/lib' '-L/opt/cray/dmapp/default/lib64' '-L/opt/cray/mpt/7.6.3/gni/mpich-gnu/5.1/lib' '-L/opt/cray/rca/1.0.0-2.0502.60530.1.63.gem/lib64' '-L/opt/cray/atp/2.1.1/libApp' '-shared-libgcc']
+  link line: [ /opt/gcc/6.3.0/snos/libexec/gcc/x86_64-suse-linux/6.3.0/collect2 -plugin /opt/gcc/6.3.0/snos/libexec/gcc/x86_64-suse-linux/6.3.0/liblto_plugin.so -plugin-opt=/opt/gcc/6.3.0/snos/libexec/gcc/x86_64-suse-linux/6.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cckCgUiP.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_4a508 /usr/lib/../lib64/crt1.o /usr/lib/../lib64/crti.o /opt/gcc/6.3.0/snos/lib/gcc/x86_64-suse-linux/6.3.0/crtbegin.o -L/opt/cray/hdf5/1.10.0.3/GNU/5.1/lib -L/opt/cray/netcdf/4.4.1.1.3/GNU/5.1/lib -L/opt/cray/fftw/3.3.4.8/interlagos/lib -L/opt/cray/libsci/16.11.1/GNU/6.1/x86_64/lib -L/opt/cray/dmapp/default/lib64 -L/opt/cray/mpt/7.6.3/gni/mpich-gnu/5.1/lib -L/opt/cray/dmapp/default/lib64 -L/opt/cray/mpt/7.6.3/gni/mpich-gnu/5.1/lib -L/opt/cray/rca/1.0.0-2.0502.60530.1.63.gem/lib64 -L/opt/cray/atp/2.1.1/libApp -L/opt/gcc/6.3.0/snos/lib/gcc/x86_64-suse-linux/6.3.0 -L/opt/gcc/6.3.0/snos/lib/gcc/x86_64-suse-linux/6.3.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/autofs/nccs-svm1_sw/titan/.swci/0-login/opt/spack/20170612/linux-suse_linux11-x86_64/gcc-5.3.0/git-2.13.0-znpqlkovoclvlt5rwm3rkpk7d2m56ez2/lib -L/opt/gcc/6.3.0/snos/lib/gcc/x86_64-suse-linux/6.3.0/../../.. CMakeFiles/cmTC_4a508.dir/CMakeCXXCompilerABI.cpp.o -rpath=/opt/cray/gcc-libs -Bdynamic --no-as-needed -lAtpSigHandler -lAtpSigHCommData --undefined=_ATP_Data_Globals --undefined=__atpHandlerInstall -lrca --as-needed -lhdf5_hl --no-as-needed --as-needed -lhdf5 --no-as-needed --as-needed -lhdf5_hl_cpp --no-as-needed --as-needed -lhdf5_cpp --no-as-needed --as-needed -lnetcdf --no-as-needed --as-needed -lnetcdf_c++4 --no-as-needed -lfftw3f_mpi -lfftw3f_threads -lfftw3f -lfftw3_mpi -lfftw3_threads -lfftw3 --as-needed -lsci_gnu_61_mpi --no-as-needed --as-needed -lsci_gnu_61 --no-as-needed --as-needed -lmpich_gnu_51 --no-as-needed --as-needed -lmpichcxx_gnu_51 --no-as-needed --as-needed -lgfortran -lquadmath --no-as-needed --as-needed -lm --no-as-needed --as-needed -lpthread --no-as-needed -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /opt/gcc/6.3.0/snos/lib/gcc/x86_64-suse-linux/6.3.0/crtend.o /usr/lib/../lib64/crtn.o]
+    arg [/opt/gcc/6.3.0/snos/libexec/gcc/x86_64-suse-linux/6.3.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/opt/gcc/6.3.0/snos/libexec/gcc/x86_64-suse-linux/6.3.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/opt/gcc/6.3.0/snos/libexec/gcc/x86_64-suse-linux/6.3.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cckCgUiP.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_4a508] ==> ignore
+    arg [/usr/lib/../lib64/crt1.o] ==> ignore
+    arg [/usr/lib/../lib64/crti.o] ==> ignore
+    arg [/opt/gcc/6.3.0/snos/lib/gcc/x86_64-suse-linux/6.3.0/crtbegin.o] ==> ignore
+    arg [-L/opt/cray/hdf5/1.10.0.3/GNU/5.1/lib] ==> dir [/opt/cray/hdf5/1.10.0.3/GNU/5.1/lib]
+    arg [-L/opt/cray/netcdf/4.4.1.1.3/GNU/5.1/lib] ==> dir [/opt/cray/netcdf/4.4.1.1.3/GNU/5.1/lib]
+    arg [-L/opt/cray/fftw/3.3.4.8/interlagos/lib] ==> dir [/opt/cray/fftw/3.3.4.8/interlagos/lib]
+    arg [-L/opt/cray/libsci/16.11.1/GNU/6.1/x86_64/lib] ==> dir [/opt/cray/libsci/16.11.1/GNU/6.1/x86_64/lib]
+    arg [-L/opt/cray/dmapp/default/lib64] ==> dir [/opt/cray/dmapp/default/lib64]
+    arg [-L/opt/cray/mpt/7.6.3/gni/mpich-gnu/5.1/lib] ==> dir [/opt/cray/mpt/7.6.3/gni/mpich-gnu/5.1/lib]
+    arg [-L/opt/cray/dmapp/default/lib64] ==> dir [/opt/cray/dmapp/default/lib64]
+    arg [-L/opt/cray/mpt/7.6.3/gni/mpich-gnu/5.1/lib] ==> dir [/opt/cray/mpt/7.6.3/gni/mpich-gnu/5.1/lib]
+    arg [-L/opt/cray/rca/1.0.0-2.0502.60530.1.63.gem/lib64] ==> dir [/opt/cray/rca/1.0.0-2.0502.60530.1.63.gem/lib64]
+    arg [-L/opt/cray/atp/2.1.1/libApp] ==> dir [/opt/cray/atp/2.1.1/libApp]
+    arg [-L/opt/gcc/6.3.0/snos/lib/gcc/x86_64-suse-linux/6.3.0] ==> dir [/opt/gcc/6.3.0/snos/lib/gcc/x86_64-suse-linux/6.3.0]
+    arg [-L/opt/gcc/6.3.0/snos/lib/gcc/x86_64-suse-linux/6.3.0/../../../../lib64] ==> dir [/opt/gcc/6.3.0/snos/lib/gcc/x86_64-suse-linux/6.3.0/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/autofs/nccs-svm1_sw/titan/.swci/0-login/opt/spack/20170612/linux-suse_linux11-x86_64/gcc-5.3.0/git-2.13.0-znpqlkovoclvlt5rwm3rkpk7d2m56ez2/lib] ==> dir [/autofs/nccs-svm1_sw/titan/.swci/0-login/opt/spack/20170612/linux-suse_linux11-x86_64/gcc-5.3.0/git-2.13.0-znpqlkovoclvlt5rwm3rkpk7d2m56ez2/lib]
+    arg [-L/opt/gcc/6.3.0/snos/lib/gcc/x86_64-suse-linux/6.3.0/../../..] ==> dir [/opt/gcc/6.3.0/snos/lib/gcc/x86_64-suse-linux/6.3.0/../../..]
+    arg [CMakeFiles/cmTC_4a508.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-rpath=/opt/cray/gcc-libs] ==> ignore
+    arg [-Bdynamic] ==> ignore
+    arg [--no-as-needed] ==> ignore
+    arg [-lAtpSigHandler] ==> lib [AtpSigHandler]
+    arg [-lAtpSigHCommData] ==> lib [AtpSigHCommData]
+    arg [--undefined=_ATP_Data_Globals] ==> ignore
+    arg [--undefined=__atpHandlerInstall] ==> ignore
+    arg [-lrca] ==> lib [rca]
+    arg [--as-needed] ==> ignore
+    arg [-lhdf5_hl] ==> lib [hdf5_hl]
+    arg [--no-as-needed] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lhdf5] ==> lib [hdf5]
+    arg [--no-as-needed] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lhdf5_hl_cpp] ==> lib [hdf5_hl_cpp]
+    arg [--no-as-needed] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lhdf5_cpp] ==> lib [hdf5_cpp]
+    arg [--no-as-needed] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lnetcdf] ==> lib [netcdf]
+    arg [--no-as-needed] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lnetcdf_c++4] ==> lib [netcdf_c++4]
+    arg [--no-as-needed] ==> ignore
+    arg [-lfftw3f_mpi] ==> lib [fftw3f_mpi]
+    arg [-lfftw3f_threads] ==> lib [fftw3f_threads]
+    arg [-lfftw3f] ==> lib [fftw3f]
+    arg [-lfftw3_mpi] ==> lib [fftw3_mpi]
+    arg [-lfftw3_threads] ==> lib [fftw3_threads]
+    arg [-lfftw3] ==> lib [fftw3]
+    arg [--as-needed] ==> ignore
+    arg [-lsci_gnu_61_mpi] ==> lib [sci_gnu_61_mpi]
+    arg [--no-as-needed] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lsci_gnu_61] ==> lib [sci_gnu_61]
+    arg [--no-as-needed] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lmpich_gnu_51] ==> lib [mpich_gnu_51]
+    arg [--no-as-needed] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lmpichcxx_gnu_51] ==> lib [mpichcxx_gnu_51]
+    arg [--no-as-needed] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgfortran] ==> lib [gfortran]
+    arg [-lquadmath] ==> lib [quadmath]
+    arg [--no-as-needed] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lm] ==> lib [m]
+    arg [--no-as-needed] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lpthread] ==> lib [pthread]
+    arg [--no-as-needed] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/opt/gcc/6.3.0/snos/lib/gcc/x86_64-suse-linux/6.3.0/crtend.o] ==> ignore
+    arg [/usr/lib/../lib64/crtn.o] ==> ignore
+  collapse library dir [/opt/cray/hdf5/1.10.0.3/GNU/5.1/lib] ==> [/opt/cray/hdf5/1.10.0.3/GNU/5.1/lib]
+  collapse library dir [/opt/cray/netcdf/4.4.1.1.3/GNU/5.1/lib] ==> [/opt/cray/netcdf/4.4.1.1.3/GNU/5.1/lib]
+  collapse library dir [/opt/cray/fftw/3.3.4.8/interlagos/lib] ==> [/opt/cray/fftw/3.3.4.8/interlagos/lib]
+  collapse library dir [/opt/cray/libsci/16.11.1/GNU/6.1/x86_64/lib] ==> [/opt/cray/libsci/16.11.1/GNU/6.1/x86_64/lib]
+  collapse library dir [/opt/cray/dmapp/default/lib64] ==> [/opt/cray/dmapp/default/lib64]
+  collapse library dir [/opt/cray/mpt/7.6.3/gni/mpich-gnu/5.1/lib] ==> [/opt/cray/mpt/7.6.3/gni/mpich-gnu/5.1/lib]
+  collapse library dir [/opt/cray/dmapp/default/lib64] ==> [/opt/cray/dmapp/default/lib64]
+  collapse library dir [/opt/cray/mpt/7.6.3/gni/mpich-gnu/5.1/lib] ==> [/opt/cray/mpt/7.6.3/gni/mpich-gnu/5.1/lib]
+  collapse library dir [/opt/cray/rca/1.0.0-2.0502.60530.1.63.gem/lib64] ==> [/opt/cray/rca/1.0.0-2.0502.60530.1.63.gem/lib64]
+  collapse library dir [/opt/cray/atp/2.1.1/libApp] ==> [/opt/cray/atp/2.1.1/libApp]
+  collapse library dir [/opt/gcc/6.3.0/snos/lib/gcc/x86_64-suse-linux/6.3.0] ==> [/opt/gcc/6.3.0/snos/lib/gcc/x86_64-suse-linux/6.3.0]
+  collapse library dir [/opt/gcc/6.3.0/snos/lib/gcc/x86_64-suse-linux/6.3.0/../../../../lib64] ==> [/opt/gcc/6.3.0/snos/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/autofs/nccs-svm1_sw/titan/.swci/0-login/opt/spack/20170612/linux-suse_linux11-x86_64/gcc-5.3.0/git-2.13.0-znpqlkovoclvlt5rwm3rkpk7d2m56ez2/lib] ==> [/autofs/nccs-svm1_sw/titan/.swci/0-login/opt/spack/20170612/linux-suse_linux11-x86_64/gcc-5.3.0/git-2.13.0-znpqlkovoclvlt5rwm3rkpk7d2m56ez2/lib]
+  collapse library dir [/opt/gcc/6.3.0/snos/lib/gcc/x86_64-suse-linux/6.3.0/../../..] ==> [/opt/gcc/6.3.0/snos/lib]
+  implicit libs: [AtpSigHandler;AtpSigHCommData;rca;hdf5_hl;hdf5;hdf5_hl_cpp;hdf5_cpp;netcdf;netcdf_c++4;fftw3f_mpi;fftw3f_threads;fftw3f;fftw3_mpi;fftw3_threads;fftw3;sci_gnu_61_mpi;sci_gnu_61;mpich_gnu_51;mpichcxx_gnu_51;gfortran;quadmath;m;pthread;stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit dirs: [/opt/cray/hdf5/1.10.0.3/GNU/5.1/lib;/opt/cray/netcdf/4.4.1.1.3/GNU/5.1/lib;/opt/cray/fftw/3.3.4.8/interlagos/lib;/opt/cray/libsci/16.11.1/GNU/6.1/x86_64/lib;/opt/cray/dmapp/default/lib64;/opt/cray/mpt/7.6.3/gni/mpich-gnu/5.1/lib;/opt/cray/rca/1.0.0-2.0502.60530.1.63.gem/lib64;/opt/cray/atp/2.1.1/libApp;/opt/gcc/6.3.0/snos/lib/gcc/x86_64-suse-linux/6.3.0;/opt/gcc/6.3.0/snos/lib64;/lib64;/usr/lib64;/autofs/nccs-svm1_sw/titan/.swci/0-login/opt/spack/20170612/linux-suse_linux11-x86_64/gcc-5.3.0/git-2.13.0-znpqlkovoclvlt5rwm3rkpk7d2m56ez2/lib;/opt/gcc/6.3.0/snos/lib]
+  implicit fwks: []
+
+
+
+
+Detecting CXX [-std=c++1z] compiler features compiled with the following output:
+Change Dir: /lustre/atlas/proj-shared/csc143/dhuang/workflow-bench-master/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_84118/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_84118.dir/build.make CMakeFiles/cmTC_84118.dir/build
+gmake[1]: Entering directory `/lustre/atlas2/csc143/proj-shared/dhuang/workflow-bench-master/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_84118.dir/feature_tests.cxx.o
+/opt/cray/craype/2.5.13/bin/CC    -std=c++1z -o CMakeFiles/cmTC_84118.dir/feature_tests.cxx.o -c /lustre/atlas/proj-shared/csc143/dhuang/workflow-bench-master/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_84118
+/autofs/nccs-svm1_sw/titan/.swci/0-login/opt/spack/20180315/linux-suse_linux11-x86_64/gcc-5.3.0/cmake-3.11.3-f2xxt5vasvlzrefneolaxu4rgko7cjnb/bin/cmake -E cmake_link_script CMakeFiles/cmTC_84118.dir/link.txt --verbose=1
+/opt/cray/craype/2.5.13/bin/CC       -dynamic CMakeFiles/cmTC_84118.dir/feature_tests.cxx.o  -o cmTC_84118 
+gmake[1]: Leaving directory `/lustre/atlas2/csc143/proj-shared/dhuang/workflow-bench-master/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++14] compiler features compiled with the following output:
+Change Dir: /lustre/atlas/proj-shared/csc143/dhuang/workflow-bench-master/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_c8577/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_c8577.dir/build.make CMakeFiles/cmTC_c8577.dir/build
+gmake[1]: Entering directory `/lustre/atlas2/csc143/proj-shared/dhuang/workflow-bench-master/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c8577.dir/feature_tests.cxx.o
+/opt/cray/craype/2.5.13/bin/CC    -std=c++14 -o CMakeFiles/cmTC_c8577.dir/feature_tests.cxx.o -c /lustre/atlas/proj-shared/csc143/dhuang/workflow-bench-master/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_c8577
+/autofs/nccs-svm1_sw/titan/.swci/0-login/opt/spack/20180315/linux-suse_linux11-x86_64/gcc-5.3.0/cmake-3.11.3-f2xxt5vasvlzrefneolaxu4rgko7cjnb/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c8577.dir/link.txt --verbose=1
+/opt/cray/craype/2.5.13/bin/CC       -dynamic CMakeFiles/cmTC_c8577.dir/feature_tests.cxx.o  -o cmTC_c8577 
+gmake[1]: Leaving directory `/lustre/atlas2/csc143/proj-shared/dhuang/workflow-bench-master/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: /lustre/atlas/proj-shared/csc143/dhuang/workflow-bench-master/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_f06d0/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_f06d0.dir/build.make CMakeFiles/cmTC_f06d0.dir/build
+gmake[1]: Entering directory `/lustre/atlas2/csc143/proj-shared/dhuang/workflow-bench-master/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f06d0.dir/feature_tests.cxx.o
+/opt/cray/craype/2.5.13/bin/CC    -std=c++11 -o CMakeFiles/cmTC_f06d0.dir/feature_tests.cxx.o -c /lustre/atlas/proj-shared/csc143/dhuang/workflow-bench-master/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_f06d0
+/autofs/nccs-svm1_sw/titan/.swci/0-login/opt/spack/20180315/linux-suse_linux11-x86_64/gcc-5.3.0/cmake-3.11.3-f2xxt5vasvlzrefneolaxu4rgko7cjnb/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f06d0.dir/link.txt --verbose=1
+/opt/cray/craype/2.5.13/bin/CC       -dynamic CMakeFiles/cmTC_f06d0.dir/feature_tests.cxx.o  -o cmTC_f06d0 
+gmake[1]: Leaving directory `/lustre/atlas2/csc143/proj-shared/dhuang/workflow-bench-master/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: /lustre/atlas/proj-shared/csc143/dhuang/workflow-bench-master/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_269a7/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_269a7.dir/build.make CMakeFiles/cmTC_269a7.dir/build
+gmake[1]: Entering directory `/lustre/atlas2/csc143/proj-shared/dhuang/workflow-bench-master/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_269a7.dir/feature_tests.cxx.o
+/opt/cray/craype/2.5.13/bin/CC    -std=c++98 -o CMakeFiles/cmTC_269a7.dir/feature_tests.cxx.o -c /lustre/atlas/proj-shared/csc143/dhuang/workflow-bench-master/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_269a7
+/autofs/nccs-svm1_sw/titan/.swci/0-login/opt/spack/20180315/linux-suse_linux11-x86_64/gcc-5.3.0/cmake-3.11.3-f2xxt5vasvlzrefneolaxu4rgko7cjnb/bin/cmake -E cmake_link_script CMakeFiles/cmTC_269a7.dir/link.txt --verbose=1
+/opt/cray/craype/2.5.13/bin/CC       -dynamic CMakeFiles/cmTC_269a7.dir/feature_tests.cxx.o  -o cmTC_269a7 
+gmake[1]: Leaving directory `/lustre/atlas2/csc143/proj-shared/dhuang/workflow-bench-master/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates
+The system is: Linux - 3.0.101-0.47.106.29-default - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /opt/cray/craype/2.5.13/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/lustre/atlas/proj-shared/csc143/dhuang/workflow-bench-master/CMakeFiles/3.11.3/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /opt/cray/craype/2.5.13/bin/CC 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/lustre/atlas/proj-shared/csc143/dhuang/workflow-bench-master/CMakeFiles/3.11.3/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /lustre/atlas/proj-shared/csc143/dhuang/workflow-bench-master/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_26f7a/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_26f7a.dir/build.make CMakeFiles/cmTC_26f7a.dir/build
+gmake[1]: Entering directory `/lustre/atlas2/csc143/proj-shared/dhuang/workflow-bench-master/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_26f7a.dir/testCCompiler.c.o
+/opt/cray/craype/2.5.13/bin/cc    -o CMakeFiles/cmTC_26f7a.dir/testCCompiler.c.o   -c /lustre/atlas/proj-shared/csc143/dhuang/workflow-bench-master/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_26f7a
+/autofs/nccs-svm1_sw/titan/.swci/0-login/opt/spack/20180315/linux-suse_linux11-x86_64/gcc-5.3.0/cmake-3.11.3-f2xxt5vasvlzrefneolaxu4rgko7cjnb/bin/cmake -E cmake_link_script CMakeFiles/cmTC_26f7a.dir/link.txt --verbose=1
+/opt/cray/craype/2.5.13/bin/cc      -dynamic CMakeFiles/cmTC_26f7a.dir/testCCompiler.c.o  -o cmTC_26f7a 
+gmake[1]: Leaving directory `/lustre/atlas2/csc143/proj-shared/dhuang/workflow-bench-master/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /lustre/atlas/proj-shared/csc143/dhuang/workflow-bench-master/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_0a70f/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_0a70f.dir/build.make CMakeFiles/cmTC_0a70f.dir/build
+gmake[1]: Entering directory `/lustre/atlas2/csc143/proj-shared/dhuang/workflow-bench-master/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0a70f.dir/CMakeCCompilerABI.c.o
+/opt/cray/craype/2.5.13/bin/cc    -o CMakeFiles/cmTC_0a70f.dir/CMakeCCompilerABI.c.o   -c /autofs/nccs-svm1_sw/titan/.swci/0-login/opt/spack/20180315/linux-suse_linux11-x86_64/gcc-5.3.0/cmake-3.11.3-f2xxt5vasvlzrefneolaxu4rgko7cjnb/share/cmake-3.11/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_0a70f
+/autofs/nccs-svm1_sw/titan/.swci/0-login/opt/spack/20180315/linux-suse_linux11-x86_64/gcc-5.3.0/cmake-3.11.3-f2xxt5vasvlzrefneolaxu4rgko7cjnb/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0a70f.dir/link.txt --verbose=1
+/opt/cray/craype/2.5.13/bin/cc     -v -dynamic CMakeFiles/cmTC_0a70f.dir/CMakeCCompilerABI.c.o  -o cmTC_0a70f 
+Using built-in specs.
+COLLECT_GCC=/opt/gcc/6.3.0/bin/../snos/bin/gcc
+COLLECT_LTO_WRAPPER=/opt/gcc/6.3.0/snos/libexec/gcc/x86_64-suse-linux/6.3.0/lto-wrapper
+Target: x86_64-suse-linux
+Configured with: ../cray-gcc-6.3.0-201701050407.93fe37becc347/configure --prefix=/opt/gcc/6.3.0/snos --disable-nls --libdir=/opt/gcc/6.3.0/snos/lib --enable-languages=c,c++,fortran --with-gxx-include-dir=/opt/gcc/6.3.0/snos/include/g++ --with-slibdir=/opt/gcc/6.3.0/snos/lib --with-system-zlib --enable-shared --enable-__cxa_atexit --build=x86_64-suse-linux --with-ppl --with-cloog --disable-multilib
+Thread model: posix
+gcc version 6.3.0 20161221 (Cray Inc.) (GCC) 
+COMPILER_PATH=/opt/gcc/6.3.0/snos/libexec/gcc/x86_64-suse-linux/6.3.0/:/opt/gcc/6.3.0/snos/libexec/gcc/x86_64-suse-linux/6.3.0/:/opt/gcc/6.3.0/snos/libexec/gcc/x86_64-suse-linux/:/opt/gcc/6.3.0/snos/lib/gcc/x86_64-suse-linux/6.3.0/:/opt/gcc/6.3.0/snos/lib/gcc/x86_64-suse-linux/
+LIBRARY_PATH=/opt/gcc/6.3.0/snos/lib/gcc/x86_64-suse-linux/6.3.0/:/opt/gcc/6.3.0/snos/lib/gcc/x86_64-suse-linux/6.3.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/autofs/nccs-svm1_sw/titan/.swci/0-login/opt/spack/20170612/linux-suse_linux11-x86_64/gcc-5.3.0/git-2.13.0-znpqlkovoclvlt5rwm3rkpk7d2m56ez2/lib/:/opt/gcc/6.3.0/snos/lib/gcc/x86_64-suse-linux/6.3.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-march=bdver1' '-D' '__CRAYXE' '-D' '__CRAY_INTERLAGOS' '-D' '__CRAYXT_COMPUTE_LINUX_TARGET' '-D' '__TARGET_LINUX__' '-v' '-o' 'cmTC_0a70f' '-I' '/opt/cray/hdf5/1.10.0.3/GNU/5.1/include' '-I' '/opt/cray/netcdf/4.4.1.1.3/GNU/5.1/include' '-I' '/opt/cray/fftw/3.3.4.8/interlagos/include' '-I' '/opt/cray/libsci/16.11.1/GNU/6.1/x86_64/include' '-I' '/opt/cray/rca/1.0.0-2.0502.60530.1.63.gem/include' '-I' '/opt/cray/alps/5.2.4-2.0502.9774.31.12.gem/include' '-I' '/opt/cray/xpmem/0.1-2.0502.64982.5.3.gem/include' '-I' '/opt/cray/gni-headers/4.0-1.0502.10859.7.8.gem/include' '-I' '/opt/cray/pmi/5.0.12/include' '-I' '/opt/cray/ugni/6.0-1.0502.10863.8.28.gem/include' '-I' '/opt/cray/udreg/2.3.2-1.0502.10518.2.17.gem/include' '-I' '/opt/cray/wlm_detect/1.0-1.0502.64649.2.2.gem/include' '-I' '/opt/cray/krca/1.0.0-2.0502.67049.8.22.gem/include' '-I' '/opt/cray-hss-devel/7.2.0/include' '-L/opt/cray/hdf5/1.10.0.3/GNU/5.1/lib' '-L/opt/cray/netcdf/4.4.1.1.3/GNU/5.1/lib' '-L/opt/cray/fftw/3.3.4.8/interlagos/lib' '-L/opt/cray/libsci/16.11.1/GNU/6.1/x86_64/lib' '-L/opt/cray/dmapp/default/lib64' '-L/opt/cray/mpt/7.6.3/gni/mpich-gnu/5.1/lib' '-L/opt/cray/rca/1.0.0-2.0502.60530.1.63.gem/lib64' '-L/opt/cray/atp/2.1.1/libApp'
+ /opt/gcc/6.3.0/snos/libexec/gcc/x86_64-suse-linux/6.3.0/collect2 -plugin /opt/gcc/6.3.0/snos/libexec/gcc/x86_64-suse-linux/6.3.0/liblto_plugin.so -plugin-opt=/opt/gcc/6.3.0/snos/libexec/gcc/x86_64-suse-linux/6.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc6zFdpZ.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_0a70f /usr/lib/../lib64/crt1.o /usr/lib/../lib64/crti.o /opt/gcc/6.3.0/snos/lib/gcc/x86_64-suse-linux/6.3.0/crtbegin.o -L/opt/cray/hdf5/1.10.0.3/GNU/5.1/lib -L/opt/cray/netcdf/4.4.1.1.3/GNU/5.1/lib -L/opt/cray/fftw/3.3.4.8/interlagos/lib -L/opt/cray/libsci/16.11.1/GNU/6.1/x86_64/lib -L/opt/cray/dmapp/default/lib64 -L/opt/cray/mpt/7.6.3/gni/mpich-gnu/5.1/lib -L/opt/cray/rca/1.0.0-2.0502.60530.1.63.gem/lib64 -L/opt/cray/atp/2.1.1/libApp -L/opt/gcc/6.3.0/snos/lib/gcc/x86_64-suse-linux/6.3.0 -L/opt/gcc/6.3.0/snos/lib/gcc/x86_64-suse-linux/6.3.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/autofs/nccs-svm1_sw/titan/.swci/0-login/opt/spack/20170612/linux-suse_linux11-x86_64/gcc-5.3.0/git-2.13.0-znpqlkovoclvlt5rwm3rkpk7d2m56ez2/lib -L/opt/gcc/6.3.0/snos/lib/gcc/x86_64-suse-linux/6.3.0/../../.. CMakeFiles/cmTC_0a70f.dir/CMakeCCompilerABI.c.o -rpath=/opt/cray/gcc-libs -Bdynamic --no-as-needed -lAtpSigHandler -lAtpSigHCommData --undefined=_ATP_Data_Globals --undefined=__atpHandlerInstall -lrca --as-needed -lhdf5_hl --no-as-needed --as-needed -lhdf5 --no-as-needed --as-needed -lnetcdf --no-as-needed -lfftw3f_mpi -lfftw3f_threads -lfftw3f -lfftw3_mpi -lfftw3_threads -lfftw3 --as-needed -lsci_gnu_61_mpi --no-as-needed --as-needed -lsci_gnu_61 --no-as-needed --as-needed -lmpich_gnu_51 --no-as-needed --as-needed -lgfortran -lquadmath --no-as-needed --as-needed -lm --no-as-needed --as-needed -lpthread --no-as-needed -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /opt/gcc/6.3.0/snos/lib/gcc/x86_64-suse-linux/6.3.0/crtend.o /usr/lib/../lib64/crtn.o
+COLLECT_GCC_OPTIONS='-march=bdver1' '-D' '__CRAYXE' '-D' '__CRAY_INTERLAGOS' '-D' '__CRAYXT_COMPUTE_LINUX_TARGET' '-D' '__TARGET_LINUX__' '-v' '-o' 'cmTC_0a70f' '-I' '/opt/cray/hdf5/1.10.0.3/GNU/5.1/include' '-I' '/opt/cray/netcdf/4.4.1.1.3/GNU/5.1/include' '-I' '/opt/cray/fftw/3.3.4.8/interlagos/include' '-I' '/opt/cray/libsci/16.11.1/GNU/6.1/x86_64/include' '-I' '/opt/cray/rca/1.0.0-2.0502.60530.1.63.gem/include' '-I' '/opt/cray/alps/5.2.4-2.0502.9774.31.12.gem/include' '-I' '/opt/cray/xpmem/0.1-2.0502.64982.5.3.gem/include' '-I' '/opt/cray/gni-headers/4.0-1.0502.10859.7.8.gem/include' '-I' '/opt/cray/pmi/5.0.12/include' '-I' '/opt/cray/ugni/6.0-1.0502.10863.8.28.gem/include' '-I' '/opt/cray/udreg/2.3.2-1.0502.10518.2.17.gem/include' '-I' '/opt/cray/wlm_detect/1.0-1.0502.64649.2.2.gem/include' '-I' '/opt/cray/krca/1.0.0-2.0502.67049.8.22.gem/include' '-I' '/opt/cray-hss-devel/7.2.0/include' '-L/opt/cray/hdf5/1.10.0.3/GNU/5.1/lib' '-L/opt/cray/netcdf/4.4.1.1.3/GNU/5.1/lib' '-L/opt/cray/fftw/3.3.4.8/interlagos/lib' '-L/opt/cray/libsci/16.11.1/GNU/6.1/x86_64/lib' '-L/opt/cray/dmapp/default/lib64' '-L/opt/cray/mpt/7.6.3/gni/mpich-gnu/5.1/lib' '-L/opt/cray/rca/1.0.0-2.0502.60530.1.63.gem/lib64' '-L/opt/cray/atp/2.1.1/libApp'
+gmake[1]: Leaving directory `/lustre/atlas2/csc143/proj-shared/dhuang/workflow-bench-master/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /lustre/atlas/proj-shared/csc143/dhuang/workflow-bench-master/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/gmake" "cmTC_0a70f/fast"]
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTC_0a70f.dir/build.make CMakeFiles/cmTC_0a70f.dir/build]
+  ignore line: [gmake[1]: Entering directory `/lustre/atlas2/csc143/proj-shared/dhuang/workflow-bench-master/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_0a70f.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/opt/cray/craype/2.5.13/bin/cc    -o CMakeFiles/cmTC_0a70f.dir/CMakeCCompilerABI.c.o   -c /autofs/nccs-svm1_sw/titan/.swci/0-login/opt/spack/20180315/linux-suse_linux11-x86_64/gcc-5.3.0/cmake-3.11.3-f2xxt5vasvlzrefneolaxu4rgko7cjnb/share/cmake-3.11/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_0a70f]
+  ignore line: [/autofs/nccs-svm1_sw/titan/.swci/0-login/opt/spack/20180315/linux-suse_linux11-x86_64/gcc-5.3.0/cmake-3.11.3-f2xxt5vasvlzrefneolaxu4rgko7cjnb/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0a70f.dir/link.txt --verbose=1]
+  ignore line: [/opt/cray/craype/2.5.13/bin/cc     -v -dynamic CMakeFiles/cmTC_0a70f.dir/CMakeCCompilerABI.c.o  -o cmTC_0a70f ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/opt/gcc/6.3.0/bin/../snos/bin/gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/opt/gcc/6.3.0/snos/libexec/gcc/x86_64-suse-linux/6.3.0/lto-wrapper]
+  ignore line: [Target: x86_64-suse-linux]
+  ignore line: [Configured with: ../cray-gcc-6.3.0-201701050407.93fe37becc347/configure --prefix=/opt/gcc/6.3.0/snos --disable-nls --libdir=/opt/gcc/6.3.0/snos/lib --enable-languages=c,c++,fortran --with-gxx-include-dir=/opt/gcc/6.3.0/snos/include/g++ --with-slibdir=/opt/gcc/6.3.0/snos/lib --with-system-zlib --enable-shared --enable-__cxa_atexit --build=x86_64-suse-linux --with-ppl --with-cloog --disable-multilib]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 6.3.0 20161221 (Cray Inc.) (GCC) ]
+  ignore line: [COMPILER_PATH=/opt/gcc/6.3.0/snos/libexec/gcc/x86_64-suse-linux/6.3.0/:/opt/gcc/6.3.0/snos/libexec/gcc/x86_64-suse-linux/6.3.0/:/opt/gcc/6.3.0/snos/libexec/gcc/x86_64-suse-linux/:/opt/gcc/6.3.0/snos/lib/gcc/x86_64-suse-linux/6.3.0/:/opt/gcc/6.3.0/snos/lib/gcc/x86_64-suse-linux/]
+  ignore line: [LIBRARY_PATH=/opt/gcc/6.3.0/snos/lib/gcc/x86_64-suse-linux/6.3.0/:/opt/gcc/6.3.0/snos/lib/gcc/x86_64-suse-linux/6.3.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/autofs/nccs-svm1_sw/titan/.swci/0-login/opt/spack/20170612/linux-suse_linux11-x86_64/gcc-5.3.0/git-2.13.0-znpqlkovoclvlt5rwm3rkpk7d2m56ez2/lib/:/opt/gcc/6.3.0/snos/lib/gcc/x86_64-suse-linux/6.3.0/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-march=bdver1' '-D' '__CRAYXE' '-D' '__CRAY_INTERLAGOS' '-D' '__CRAYXT_COMPUTE_LINUX_TARGET' '-D' '__TARGET_LINUX__' '-v' '-o' 'cmTC_0a70f' '-I' '/opt/cray/hdf5/1.10.0.3/GNU/5.1/include' '-I' '/opt/cray/netcdf/4.4.1.1.3/GNU/5.1/include' '-I' '/opt/cray/fftw/3.3.4.8/interlagos/include' '-I' '/opt/cray/libsci/16.11.1/GNU/6.1/x86_64/include' '-I' '/opt/cray/rca/1.0.0-2.0502.60530.1.63.gem/include' '-I' '/opt/cray/alps/5.2.4-2.0502.9774.31.12.gem/include' '-I' '/opt/cray/xpmem/0.1-2.0502.64982.5.3.gem/include' '-I' '/opt/cray/gni-headers/4.0-1.0502.10859.7.8.gem/include' '-I' '/opt/cray/pmi/5.0.12/include' '-I' '/opt/cray/ugni/6.0-1.0502.10863.8.28.gem/include' '-I' '/opt/cray/udreg/2.3.2-1.0502.10518.2.17.gem/include' '-I' '/opt/cray/wlm_detect/1.0-1.0502.64649.2.2.gem/include' '-I' '/opt/cray/krca/1.0.0-2.0502.67049.8.22.gem/include' '-I' '/opt/cray-hss-devel/7.2.0/include' '-L/opt/cray/hdf5/1.10.0.3/GNU/5.1/lib' '-L/opt/cray/netcdf/4.4.1.1.3/GNU/5.1/lib' '-L/opt/cray/fftw/3.3.4.8/interlagos/lib' '-L/opt/cray/libsci/16.11.1/GNU/6.1/x86_64/lib' '-L/opt/cray/dmapp/default/lib64' '-L/opt/cray/mpt/7.6.3/gni/mpich-gnu/5.1/lib' '-L/opt/cray/rca/1.0.0-2.0502.60530.1.63.gem/lib64' '-L/opt/cray/atp/2.1.1/libApp']
+  link line: [ /opt/gcc/6.3.0/snos/libexec/gcc/x86_64-suse-linux/6.3.0/collect2 -plugin /opt/gcc/6.3.0/snos/libexec/gcc/x86_64-suse-linux/6.3.0/liblto_plugin.so -plugin-opt=/opt/gcc/6.3.0/snos/libexec/gcc/x86_64-suse-linux/6.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc6zFdpZ.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_0a70f /usr/lib/../lib64/crt1.o /usr/lib/../lib64/crti.o /opt/gcc/6.3.0/snos/lib/gcc/x86_64-suse-linux/6.3.0/crtbegin.o -L/opt/cray/hdf5/1.10.0.3/GNU/5.1/lib -L/opt/cray/netcdf/4.4.1.1.3/GNU/5.1/lib -L/opt/cray/fftw/3.3.4.8/interlagos/lib -L/opt/cray/libsci/16.11.1/GNU/6.1/x86_64/lib -L/opt/cray/dmapp/default/lib64 -L/opt/cray/mpt/7.6.3/gni/mpich-gnu/5.1/lib -L/opt/cray/rca/1.0.0-2.0502.60530.1.63.gem/lib64 -L/opt/cray/atp/2.1.1/libApp -L/opt/gcc/6.3.0/snos/lib/gcc/x86_64-suse-linux/6.3.0 -L/opt/gcc/6.3.0/snos/lib/gcc/x86_64-suse-linux/6.3.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/autofs/nccs-svm1_sw/titan/.swci/0-login/opt/spack/20170612/linux-suse_linux11-x86_64/gcc-5.3.0/git-2.13.0-znpqlkovoclvlt5rwm3rkpk7d2m56ez2/lib -L/opt/gcc/6.3.0/snos/lib/gcc/x86_64-suse-linux/6.3.0/../../.. CMakeFiles/cmTC_0a70f.dir/CMakeCCompilerABI.c.o -rpath=/opt/cray/gcc-libs -Bdynamic --no-as-needed -lAtpSigHandler -lAtpSigHCommData --undefined=_ATP_Data_Globals --undefined=__atpHandlerInstall -lrca --as-needed -lhdf5_hl --no-as-needed --as-needed -lhdf5 --no-as-needed --as-needed -lnetcdf --no-as-needed -lfftw3f_mpi -lfftw3f_threads -lfftw3f -lfftw3_mpi -lfftw3_threads -lfftw3 --as-needed -lsci_gnu_61_mpi --no-as-needed --as-needed -lsci_gnu_61 --no-as-needed --as-needed -lmpich_gnu_51 --no-as-needed --as-needed -lgfortran -lquadmath --no-as-needed --as-needed -lm --no-as-needed --as-needed -lpthread --no-as-needed -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /opt/gcc/6.3.0/snos/lib/gcc/x86_64-suse-linux/6.3.0/crtend.o /usr/lib/../lib64/crtn.o]
+    arg [/opt/gcc/6.3.0/snos/libexec/gcc/x86_64-suse-linux/6.3.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/opt/gcc/6.3.0/snos/libexec/gcc/x86_64-suse-linux/6.3.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/opt/gcc/6.3.0/snos/libexec/gcc/x86_64-suse-linux/6.3.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc6zFdpZ.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_0a70f] ==> ignore
+    arg [/usr/lib/../lib64/crt1.o] ==> ignore
+    arg [/usr/lib/../lib64/crti.o] ==> ignore
+    arg [/opt/gcc/6.3.0/snos/lib/gcc/x86_64-suse-linux/6.3.0/crtbegin.o] ==> ignore
+    arg [-L/opt/cray/hdf5/1.10.0.3/GNU/5.1/lib] ==> dir [/opt/cray/hdf5/1.10.0.3/GNU/5.1/lib]
+    arg [-L/opt/cray/netcdf/4.4.1.1.3/GNU/5.1/lib] ==> dir [/opt/cray/netcdf/4.4.1.1.3/GNU/5.1/lib]
+    arg [-L/opt/cray/fftw/3.3.4.8/interlagos/lib] ==> dir [/opt/cray/fftw/3.3.4.8/interlagos/lib]
+    arg [-L/opt/cray/libsci/16.11.1/GNU/6.1/x86_64/lib] ==> dir [/opt/cray/libsci/16.11.1/GNU/6.1/x86_64/lib]
+    arg [-L/opt/cray/dmapp/default/lib64] ==> dir [/opt/cray/dmapp/default/lib64]
+    arg [-L/opt/cray/mpt/7.6.3/gni/mpich-gnu/5.1/lib] ==> dir [/opt/cray/mpt/7.6.3/gni/mpich-gnu/5.1/lib]
+    arg [-L/opt/cray/rca/1.0.0-2.0502.60530.1.63.gem/lib64] ==> dir [/opt/cray/rca/1.0.0-2.0502.60530.1.63.gem/lib64]
+    arg [-L/opt/cray/atp/2.1.1/libApp] ==> dir [/opt/cray/atp/2.1.1/libApp]
+    arg [-L/opt/gcc/6.3.0/snos/lib/gcc/x86_64-suse-linux/6.3.0] ==> dir [/opt/gcc/6.3.0/snos/lib/gcc/x86_64-suse-linux/6.3.0]
+    arg [-L/opt/gcc/6.3.0/snos/lib/gcc/x86_64-suse-linux/6.3.0/../../../../lib64] ==> dir [/opt/gcc/6.3.0/snos/lib/gcc/x86_64-suse-linux/6.3.0/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/autofs/nccs-svm1_sw/titan/.swci/0-login/opt/spack/20170612/linux-suse_linux11-x86_64/gcc-5.3.0/git-2.13.0-znpqlkovoclvlt5rwm3rkpk7d2m56ez2/lib] ==> dir [/autofs/nccs-svm1_sw/titan/.swci/0-login/opt/spack/20170612/linux-suse_linux11-x86_64/gcc-5.3.0/git-2.13.0-znpqlkovoclvlt5rwm3rkpk7d2m56ez2/lib]
+    arg [-L/opt/gcc/6.3.0/snos/lib/gcc/x86_64-suse-linux/6.3.0/../../..] ==> dir [/opt/gcc/6.3.0/snos/lib/gcc/x86_64-suse-linux/6.3.0/../../..]
+    arg [CMakeFiles/cmTC_0a70f.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-rpath=/opt/cray/gcc-libs] ==> ignore
+    arg [-Bdynamic] ==> ignore
+    arg [--no-as-needed] ==> ignore
+    arg [-lAtpSigHandler] ==> lib [AtpSigHandler]
+    arg [-lAtpSigHCommData] ==> lib [AtpSigHCommData]
+    arg [--undefined=_ATP_Data_Globals] ==> ignore
+    arg [--undefined=__atpHandlerInstall] ==> ignore
+    arg [-lrca] ==> lib [rca]
+    arg [--as-needed] ==> ignore
+    arg [-lhdf5_hl] ==> lib [hdf5_hl]
+    arg [--no-as-needed] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lhdf5] ==> lib [hdf5]
+    arg [--no-as-needed] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lnetcdf] ==> lib [netcdf]
+    arg [--no-as-needed] ==> ignore
+    arg [-lfftw3f_mpi] ==> lib [fftw3f_mpi]
+    arg [-lfftw3f_threads] ==> lib [fftw3f_threads]
+    arg [-lfftw3f] ==> lib [fftw3f]
+    arg [-lfftw3_mpi] ==> lib [fftw3_mpi]
+    arg [-lfftw3_threads] ==> lib [fftw3_threads]
+    arg [-lfftw3] ==> lib [fftw3]
+    arg [--as-needed] ==> ignore
+    arg [-lsci_gnu_61_mpi] ==> lib [sci_gnu_61_mpi]
+    arg [--no-as-needed] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lsci_gnu_61] ==> lib [sci_gnu_61]
+    arg [--no-as-needed] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lmpich_gnu_51] ==> lib [mpich_gnu_51]
+    arg [--no-as-needed] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgfortran] ==> lib [gfortran]
+    arg [-lquadmath] ==> lib [quadmath]
+    arg [--no-as-needed] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lm] ==> lib [m]
+    arg [--no-as-needed] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lpthread] ==> lib [pthread]
+    arg [--no-as-needed] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/opt/gcc/6.3.0/snos/lib/gcc/x86_64-suse-linux/6.3.0/crtend.o] ==> ignore
+    arg [/usr/lib/../lib64/crtn.o] ==> ignore
+  collapse library dir [/opt/cray/hdf5/1.10.0.3/GNU/5.1/lib] ==> [/opt/cray/hdf5/1.10.0.3/GNU/5.1/lib]
+  collapse library dir [/opt/cray/netcdf/4.4.1.1.3/GNU/5.1/lib] ==> [/opt/cray/netcdf/4.4.1.1.3/GNU/5.1/lib]
+  collapse library dir [/opt/cray/fftw/3.3.4.8/interlagos/lib] ==> [/opt/cray/fftw/3.3.4.8/interlagos/lib]
+  collapse library dir [/opt/cray/libsci/16.11.1/GNU/6.1/x86_64/lib] ==> [/opt/cray/libsci/16.11.1/GNU/6.1/x86_64/lib]
+  collapse library dir [/opt/cray/dmapp/default/lib64] ==> [/opt/cray/dmapp/default/lib64]
+  collapse library dir [/opt/cray/mpt/7.6.3/gni/mpich-gnu/5.1/lib] ==> [/opt/cray/mpt/7.6.3/gni/mpich-gnu/5.1/lib]
+  collapse library dir [/opt/cray/rca/1.0.0-2.0502.60530.1.63.gem/lib64] ==> [/opt/cray/rca/1.0.0-2.0502.60530.1.63.gem/lib64]
+  collapse library dir [/opt/cray/atp/2.1.1/libApp] ==> [/opt/cray/atp/2.1.1/libApp]
+  collapse library dir [/opt/gcc/6.3.0/snos/lib/gcc/x86_64-suse-linux/6.3.0] ==> [/opt/gcc/6.3.0/snos/lib/gcc/x86_64-suse-linux/6.3.0]
+  collapse library dir [/opt/gcc/6.3.0/snos/lib/gcc/x86_64-suse-linux/6.3.0/../../../../lib64] ==> [/opt/gcc/6.3.0/snos/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/autofs/nccs-svm1_sw/titan/.swci/0-login/opt/spack/20170612/linux-suse_linux11-x86_64/gcc-5.3.0/git-2.13.0-znpqlkovoclvlt5rwm3rkpk7d2m56ez2/lib] ==> [/autofs/nccs-svm1_sw/titan/.swci/0-login/opt/spack/20170612/linux-suse_linux11-x86_64/gcc-5.3.0/git-2.13.0-znpqlkovoclvlt5rwm3rkpk7d2m56ez2/lib]
+  collapse library dir [/opt/gcc/6.3.0/snos/lib/gcc/x86_64-suse-linux/6.3.0/../../..] ==> [/opt/gcc/6.3.0/snos/lib]
+  implicit libs: [AtpSigHandler;AtpSigHCommData;rca;hdf5_hl;hdf5;netcdf;fftw3f_mpi;fftw3f_threads;fftw3f;fftw3_mpi;fftw3_threads;fftw3;sci_gnu_61_mpi;sci_gnu_61;mpich_gnu_51;gfortran;quadmath;m;pthread;gcc;gcc_s;c;gcc;gcc_s]
+  implicit dirs: [/opt/cray/hdf5/1.10.0.3/GNU/5.1/lib;/opt/cray/netcdf/4.4.1.1.3/GNU/5.1/lib;/opt/cray/fftw/3.3.4.8/interlagos/lib;/opt/cray/libsci/16.11.1/GNU/6.1/x86_64/lib;/opt/cray/dmapp/default/lib64;/opt/cray/mpt/7.6.3/gni/mpich-gnu/5.1/lib;/opt/cray/rca/1.0.0-2.0502.60530.1.63.gem/lib64;/opt/cray/atp/2.1.1/libApp;/opt/gcc/6.3.0/snos/lib/gcc/x86_64-suse-linux/6.3.0;/opt/gcc/6.3.0/snos/lib64;/lib64;/usr/lib64;/autofs/nccs-svm1_sw/titan/.swci/0-login/opt/spack/20170612/linux-suse_linux11-x86_64/gcc-5.3.0/git-2.13.0-znpqlkovoclvlt5rwm3rkpk7d2m56ez2/lib;/opt/gcc/6.3.0/snos/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /lustre/atlas/proj-shared/csc143/dhuang/workflow-bench-master/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_e1a4b/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_e1a4b.dir/build.make CMakeFiles/cmTC_e1a4b.dir/build
+gmake[1]: Entering directory `/lustre/atlas2/csc143/proj-shared/dhuang/workflow-bench-master/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e1a4b.dir/feature_tests.c.o
+/opt/cray/craype/2.5.13/bin/cc   -std=c11 -o CMakeFiles/cmTC_e1a4b.dir/feature_tests.c.o   -c /lustre/atlas/proj-shared/csc143/dhuang/workflow-bench-master/CMakeFiles/feature_tests.c
+Linking C executable cmTC_e1a4b
+/autofs/nccs-svm1_sw/titan/.swci/0-login/opt/spack/20180315/linux-suse_linux11-x86_64/gcc-5.3.0/cmake-3.11.3-f2xxt5vasvlzrefneolaxu4rgko7cjnb/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e1a4b.dir/link.txt --verbose=1
+/opt/cray/craype/2.5.13/bin/cc      -dynamic CMakeFiles/cmTC_e1a4b.dir/feature_tests.c.o  -o cmTC_e1a4b 
+gmake[1]: Leaving directory `/lustre/atlas2/csc143/proj-shared/dhuang/workflow-bench-master/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /lustre/atlas/proj-shared/csc143/dhuang/workflow-bench-master/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_991b1/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_991b1.dir/build.make CMakeFiles/cmTC_991b1.dir/build
+gmake[1]: Entering directory `/lustre/atlas2/csc143/proj-shared/dhuang/workflow-bench-master/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_991b1.dir/feature_tests.c.o
+/opt/cray/craype/2.5.13/bin/cc   -std=c99 -o CMakeFiles/cmTC_991b1.dir/feature_tests.c.o   -c /lustre/atlas/proj-shared/csc143/dhuang/workflow-bench-master/CMakeFiles/feature_tests.c
+Linking C executable cmTC_991b1
+/autofs/nccs-svm1_sw/titan/.swci/0-login/opt/spack/20180315/linux-suse_linux11-x86_64/gcc-5.3.0/cmake-3.11.3-f2xxt5vasvlzrefneolaxu4rgko7cjnb/bin/cmake -E cmake_link_script CMakeFiles/cmTC_991b1.dir/link.txt --verbose=1
+/opt/cray/craype/2.5.13/bin/cc      -dynamic CMakeFiles/cmTC_991b1.dir/feature_tests.c.o  -o cmTC_991b1 
+gmake[1]: Leaving directory `/lustre/atlas2/csc143/proj-shared/dhuang/workflow-bench-master/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /lustre/atlas/proj-shared/csc143/dhuang/workflow-bench-master/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_2fab2/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_2fab2.dir/build.make CMakeFiles/cmTC_2fab2.dir/build
+gmake[1]: Entering directory `/lustre/atlas2/csc143/proj-shared/dhuang/workflow-bench-master/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2fab2.dir/feature_tests.c.o
+/opt/cray/craype/2.5.13/bin/cc   -std=c90 -o CMakeFiles/cmTC_2fab2.dir/feature_tests.c.o   -c /lustre/atlas/proj-shared/csc143/dhuang/workflow-bench-master/CMakeFiles/feature_tests.c
+Linking C executable cmTC_2fab2
+/autofs/nccs-svm1_sw/titan/.swci/0-login/opt/spack/20180315/linux-suse_linux11-x86_64/gcc-5.3.0/cmake-3.11.3-f2xxt5vasvlzrefneolaxu4rgko7cjnb/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2fab2.dir/link.txt --verbose=1
+/opt/cray/craype/2.5.13/bin/cc      -dynamic CMakeFiles/cmTC_2fab2.dir/feature_tests.c.o  -o cmTC_2fab2 
+gmake[1]: Leaving directory `/lustre/atlas2/csc143/proj-shared/dhuang/workflow-bench-master/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /lustre/atlas/proj-shared/csc143/dhuang/workflow-bench-master/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_1df8a/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_1df8a.dir/build.make CMakeFiles/cmTC_1df8a.dir/build
+gmake[1]: Entering directory `/lustre/atlas2/csc143/proj-shared/dhuang/workflow-bench-master/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_1df8a.dir/testCXXCompiler.cxx.o
+/opt/cray/craype/2.5.13/bin/CC     -o CMakeFiles/cmTC_1df8a.dir/testCXXCompiler.cxx.o -c /lustre/atlas/proj-shared/csc143/dhuang/workflow-bench-master/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_1df8a
+/autofs/nccs-svm1_sw/titan/.swci/0-login/opt/spack/20180315/linux-suse_linux11-x86_64/gcc-5.3.0/cmake-3.11.3-f2xxt5vasvlzrefneolaxu4rgko7cjnb/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1df8a.dir/link.txt --verbose=1
+/opt/cray/craype/2.5.13/bin/CC       -dynamic CMakeFiles/cmTC_1df8a.dir/testCXXCompiler.cxx.o  -o cmTC_1df8a 
+gmake[1]: Leaving directory `/lustre/atlas2/csc143/proj-shared/dhuang/workflow-bench-master/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /lustre/atlas/proj-shared/csc143/dhuang/workflow-bench-master/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_e0ed5/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_e0ed5.dir/build.make CMakeFiles/cmTC_e0ed5.dir/build
+gmake[1]: Entering directory `/lustre/atlas2/csc143/proj-shared/dhuang/workflow-bench-master/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e0ed5.dir/CMakeCXXCompilerABI.cpp.o
+/opt/cray/craype/2.5.13/bin/CC     -o CMakeFiles/cmTC_e0ed5.dir/CMakeCXXCompilerABI.cpp.o -c /autofs/nccs-svm1_sw/titan/.swci/0-login/opt/spack/20180315/linux-suse_linux11-x86_64/gcc-5.3.0/cmake-3.11.3-f2xxt5vasvlzrefneolaxu4rgko7cjnb/share/cmake-3.11/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_e0ed5
+/autofs/nccs-svm1_sw/titan/.swci/0-login/opt/spack/20180315/linux-suse_linux11-x86_64/gcc-5.3.0/cmake-3.11.3-f2xxt5vasvlzrefneolaxu4rgko7cjnb/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e0ed5.dir/link.txt --verbose=1
+/opt/cray/craype/2.5.13/bin/CC      -v -dynamic CMakeFiles/cmTC_e0ed5.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_e0ed5 
+Using built-in specs.
+COLLECT_GCC=/opt/gcc/6.3.0/bin/../snos/bin/g++
+COLLECT_LTO_WRAPPER=/opt/gcc/6.3.0/snos/libexec/gcc/x86_64-suse-linux/6.3.0/lto-wrapper
+Target: x86_64-suse-linux
+Configured with: ../cray-gcc-6.3.0-201701050407.93fe37becc347/configure --prefix=/opt/gcc/6.3.0/snos --disable-nls --libdir=/opt/gcc/6.3.0/snos/lib --enable-languages=c,c++,fortran --with-gxx-include-dir=/opt/gcc/6.3.0/snos/include/g++ --with-slibdir=/opt/gcc/6.3.0/snos/lib --with-system-zlib --enable-shared --enable-__cxa_atexit --build=x86_64-suse-linux --with-ppl --with-cloog --disable-multilib
+Thread model: posix
+gcc version 6.3.0 20161221 (Cray Inc.) (GCC) 
+COMPILER_PATH=/opt/gcc/6.3.0/snos/libexec/gcc/x86_64-suse-linux/6.3.0/:/opt/gcc/6.3.0/snos/libexec/gcc/x86_64-suse-linux/6.3.0/:/opt/gcc/6.3.0/snos/libexec/gcc/x86_64-suse-linux/:/opt/gcc/6.3.0/snos/lib/gcc/x86_64-suse-linux/6.3.0/:/opt/gcc/6.3.0/snos/lib/gcc/x86_64-suse-linux/
+LIBRARY_PATH=/opt/gcc/6.3.0/snos/lib/gcc/x86_64-suse-linux/6.3.0/:/opt/gcc/6.3.0/snos/lib/gcc/x86_64-suse-linux/6.3.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/autofs/nccs-svm1_sw/titan/.swci/0-login/opt/spack/20170612/linux-suse_linux11-x86_64/gcc-5.3.0/git-2.13.0-znpqlkovoclvlt5rwm3rkpk7d2m56ez2/lib/:/opt/gcc/6.3.0/snos/lib/gcc/x86_64-suse-linux/6.3.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-march=bdver1' '-D' '__CRAYXE' '-D' '__CRAY_INTERLAGOS' '-D' '__CRAYXT_COMPUTE_LINUX_TARGET' '-D' '__TARGET_LINUX__' '-v' '-o' 'cmTC_e0ed5' '-I' '/opt/cray/hdf5/1.10.0.3/GNU/5.1/include' '-I' '/opt/cray/netcdf/4.4.1.1.3/GNU/5.1/include' '-I' '/opt/cray/fftw/3.3.4.8/interlagos/include' '-I' '/opt/cray/libsci/16.11.1/GNU/6.1/x86_64/include' '-I' '/opt/cray/rca/1.0.0-2.0502.60530.1.63.gem/include' '-I' '/opt/cray/alps/5.2.4-2.0502.9774.31.12.gem/include' '-I' '/opt/cray/xpmem/0.1-2.0502.64982.5.3.gem/include' '-I' '/opt/cray/gni-headers/4.0-1.0502.10859.7.8.gem/include' '-I' '/opt/cray/pmi/5.0.12/include' '-I' '/opt/cray/ugni/6.0-1.0502.10863.8.28.gem/include' '-I' '/opt/cray/udreg/2.3.2-1.0502.10518.2.17.gem/include' '-I' '/opt/cray/wlm_detect/1.0-1.0502.64649.2.2.gem/include' '-I' '/opt/cray/krca/1.0.0-2.0502.67049.8.22.gem/include' '-I' '/opt/cray-hss-devel/7.2.0/include' '-L/opt/cray/hdf5/1.10.0.3/GNU/5.1/lib' '-L/opt/cray/netcdf/4.4.1.1.3/GNU/5.1/lib' '-L/opt/cray/fftw/3.3.4.8/interlagos/lib' '-L/opt/cray/libsci/16.11.1/GNU/6.1/x86_64/lib' '-L/opt/cray/dmapp/default/lib64' '-L/opt/cray/mpt/7.6.3/gni/mpich-gnu/5.1/lib' '-L/opt/cray/dmapp/default/lib64' '-L/opt/cray/mpt/7.6.3/gni/mpich-gnu/5.1/lib' '-L/opt/cray/rca/1.0.0-2.0502.60530.1.63.gem/lib64' '-L/opt/cray/atp/2.1.1/libApp' '-shared-libgcc'
+ /opt/gcc/6.3.0/snos/libexec/gcc/x86_64-suse-linux/6.3.0/collect2 -plugin /opt/gcc/6.3.0/snos/libexec/gcc/x86_64-suse-linux/6.3.0/liblto_plugin.so -plugin-opt=/opt/gcc/6.3.0/snos/libexec/gcc/x86_64-suse-linux/6.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccnWElIi.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_e0ed5 /usr/lib/../lib64/crt1.o /usr/lib/../lib64/crti.o /opt/gcc/6.3.0/snos/lib/gcc/x86_64-suse-linux/6.3.0/crtbegin.o -L/opt/cray/hdf5/1.10.0.3/GNU/5.1/lib -L/opt/cray/netcdf/4.4.1.1.3/GNU/5.1/lib -L/opt/cray/fftw/3.3.4.8/interlagos/lib -L/opt/cray/libsci/16.11.1/GNU/6.1/x86_64/lib -L/opt/cray/dmapp/default/lib64 -L/opt/cray/mpt/7.6.3/gni/mpich-gnu/5.1/lib -L/opt/cray/dmapp/default/lib64 -L/opt/cray/mpt/7.6.3/gni/mpich-gnu/5.1/lib -L/opt/cray/rca/1.0.0-2.0502.60530.1.63.gem/lib64 -L/opt/cray/atp/2.1.1/libApp -L/opt/gcc/6.3.0/snos/lib/gcc/x86_64-suse-linux/6.3.0 -L/opt/gcc/6.3.0/snos/lib/gcc/x86_64-suse-linux/6.3.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/autofs/nccs-svm1_sw/titan/.swci/0-login/opt/spack/20170612/linux-suse_linux11-x86_64/gcc-5.3.0/git-2.13.0-znpqlkovoclvlt5rwm3rkpk7d2m56ez2/lib -L/opt/gcc/6.3.0/snos/lib/gcc/x86_64-suse-linux/6.3.0/../../.. CMakeFiles/cmTC_e0ed5.dir/CMakeCXXCompilerABI.cpp.o -rpath=/opt/cray/gcc-libs -Bdynamic --no-as-needed -lAtpSigHandler -lAtpSigHCommData --undefined=_ATP_Data_Globals --undefined=__atpHandlerInstall -lrca --as-needed -lhdf5_hl --no-as-needed --as-needed -lhdf5 --no-as-needed --as-needed -lhdf5_hl_cpp --no-as-needed --as-needed -lhdf5_cpp --no-as-needed --as-needed -lnetcdf --no-as-needed --as-needed -lnetcdf_c++4 --no-as-needed -lfftw3f_mpi -lfftw3f_threads -lfftw3f -lfftw3_mpi -lfftw3_threads -lfftw3 --as-needed -lsci_gnu_61_mpi --no-as-needed --as-needed -lsci_gnu_61 --no-as-needed --as-needed -lmpich_gnu_51 --no-as-needed --as-needed -lmpichcxx_gnu_51 --no-as-needed --as-needed -lgfortran -lquadmath --no-as-needed --as-needed -lm --no-as-needed --as-needed -lpthread --no-as-needed -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /opt/gcc/6.3.0/snos/lib/gcc/x86_64-suse-linux/6.3.0/crtend.o /usr/lib/../lib64/crtn.o
+COLLECT_GCC_OPTIONS='-march=bdver1' '-D' '__CRAYXE' '-D' '__CRAY_INTERLAGOS' '-D' '__CRAYXT_COMPUTE_LINUX_TARGET' '-D' '__TARGET_LINUX__' '-v' '-o' 'cmTC_e0ed5' '-I' '/opt/cray/hdf5/1.10.0.3/GNU/5.1/include' '-I' '/opt/cray/netcdf/4.4.1.1.3/GNU/5.1/include' '-I' '/opt/cray/fftw/3.3.4.8/interlagos/include' '-I' '/opt/cray/libsci/16.11.1/GNU/6.1/x86_64/include' '-I' '/opt/cray/rca/1.0.0-2.0502.60530.1.63.gem/include' '-I' '/opt/cray/alps/5.2.4-2.0502.9774.31.12.gem/include' '-I' '/opt/cray/xpmem/0.1-2.0502.64982.5.3.gem/include' '-I' '/opt/cray/gni-headers/4.0-1.0502.10859.7.8.gem/include' '-I' '/opt/cray/pmi/5.0.12/include' '-I' '/opt/cray/ugni/6.0-1.0502.10863.8.28.gem/include' '-I' '/opt/cray/udreg/2.3.2-1.0502.10518.2.17.gem/include' '-I' '/opt/cray/wlm_detect/1.0-1.0502.64649.2.2.gem/include' '-I' '/opt/cray/krca/1.0.0-2.0502.67049.8.22.gem/include' '-I' '/opt/cray-hss-devel/7.2.0/include' '-L/opt/cray/hdf5/1.10.0.3/GNU/5.1/lib' '-L/opt/cray/netcdf/4.4.1.1.3/GNU/5.1/lib' '-L/opt/cray/fftw/3.3.4.8/interlagos/lib' '-L/opt/cray/libsci/16.11.1/GNU/6.1/x86_64/lib' '-L/opt/cray/dmapp/default/lib64' '-L/opt/cray/mpt/7.6.3/gni/mpich-gnu/5.1/lib' '-L/opt/cray/dmapp/default/lib64' '-L/opt/cray/mpt/7.6.3/gni/mpich-gnu/5.1/lib' '-L/opt/cray/rca/1.0.0-2.0502.60530.1.63.gem/lib64' '-L/opt/cray/atp/2.1.1/libApp' '-shared-libgcc'
+gmake[1]: Leaving directory `/lustre/atlas2/csc143/proj-shared/dhuang/workflow-bench-master/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /lustre/atlas/proj-shared/csc143/dhuang/workflow-bench-master/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/gmake" "cmTC_e0ed5/fast"]
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTC_e0ed5.dir/build.make CMakeFiles/cmTC_e0ed5.dir/build]
+  ignore line: [gmake[1]: Entering directory `/lustre/atlas2/csc143/proj-shared/dhuang/workflow-bench-master/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_e0ed5.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/opt/cray/craype/2.5.13/bin/CC     -o CMakeFiles/cmTC_e0ed5.dir/CMakeCXXCompilerABI.cpp.o -c /autofs/nccs-svm1_sw/titan/.swci/0-login/opt/spack/20180315/linux-suse_linux11-x86_64/gcc-5.3.0/cmake-3.11.3-f2xxt5vasvlzrefneolaxu4rgko7cjnb/share/cmake-3.11/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_e0ed5]
+  ignore line: [/autofs/nccs-svm1_sw/titan/.swci/0-login/opt/spack/20180315/linux-suse_linux11-x86_64/gcc-5.3.0/cmake-3.11.3-f2xxt5vasvlzrefneolaxu4rgko7cjnb/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e0ed5.dir/link.txt --verbose=1]
+  ignore line: [/opt/cray/craype/2.5.13/bin/CC      -v -dynamic CMakeFiles/cmTC_e0ed5.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_e0ed5 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/opt/gcc/6.3.0/bin/../snos/bin/g++]
+  ignore line: [COLLECT_LTO_WRAPPER=/opt/gcc/6.3.0/snos/libexec/gcc/x86_64-suse-linux/6.3.0/lto-wrapper]
+  ignore line: [Target: x86_64-suse-linux]
+  ignore line: [Configured with: ../cray-gcc-6.3.0-201701050407.93fe37becc347/configure --prefix=/opt/gcc/6.3.0/snos --disable-nls --libdir=/opt/gcc/6.3.0/snos/lib --enable-languages=c,c++,fortran --with-gxx-include-dir=/opt/gcc/6.3.0/snos/include/g++ --with-slibdir=/opt/gcc/6.3.0/snos/lib --with-system-zlib --enable-shared --enable-__cxa_atexit --build=x86_64-suse-linux --with-ppl --with-cloog --disable-multilib]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 6.3.0 20161221 (Cray Inc.) (GCC) ]
+  ignore line: [COMPILER_PATH=/opt/gcc/6.3.0/snos/libexec/gcc/x86_64-suse-linux/6.3.0/:/opt/gcc/6.3.0/snos/libexec/gcc/x86_64-suse-linux/6.3.0/:/opt/gcc/6.3.0/snos/libexec/gcc/x86_64-suse-linux/:/opt/gcc/6.3.0/snos/lib/gcc/x86_64-suse-linux/6.3.0/:/opt/gcc/6.3.0/snos/lib/gcc/x86_64-suse-linux/]
+  ignore line: [LIBRARY_PATH=/opt/gcc/6.3.0/snos/lib/gcc/x86_64-suse-linux/6.3.0/:/opt/gcc/6.3.0/snos/lib/gcc/x86_64-suse-linux/6.3.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/autofs/nccs-svm1_sw/titan/.swci/0-login/opt/spack/20170612/linux-suse_linux11-x86_64/gcc-5.3.0/git-2.13.0-znpqlkovoclvlt5rwm3rkpk7d2m56ez2/lib/:/opt/gcc/6.3.0/snos/lib/gcc/x86_64-suse-linux/6.3.0/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-march=bdver1' '-D' '__CRAYXE' '-D' '__CRAY_INTERLAGOS' '-D' '__CRAYXT_COMPUTE_LINUX_TARGET' '-D' '__TARGET_LINUX__' '-v' '-o' 'cmTC_e0ed5' '-I' '/opt/cray/hdf5/1.10.0.3/GNU/5.1/include' '-I' '/opt/cray/netcdf/4.4.1.1.3/GNU/5.1/include' '-I' '/opt/cray/fftw/3.3.4.8/interlagos/include' '-I' '/opt/cray/libsci/16.11.1/GNU/6.1/x86_64/include' '-I' '/opt/cray/rca/1.0.0-2.0502.60530.1.63.gem/include' '-I' '/opt/cray/alps/5.2.4-2.0502.9774.31.12.gem/include' '-I' '/opt/cray/xpmem/0.1-2.0502.64982.5.3.gem/include' '-I' '/opt/cray/gni-headers/4.0-1.0502.10859.7.8.gem/include' '-I' '/opt/cray/pmi/5.0.12/include' '-I' '/opt/cray/ugni/6.0-1.0502.10863.8.28.gem/include' '-I' '/opt/cray/udreg/2.3.2-1.0502.10518.2.17.gem/include' '-I' '/opt/cray/wlm_detect/1.0-1.0502.64649.2.2.gem/include' '-I' '/opt/cray/krca/1.0.0-2.0502.67049.8.22.gem/include' '-I' '/opt/cray-hss-devel/7.2.0/include' '-L/opt/cray/hdf5/1.10.0.3/GNU/5.1/lib' '-L/opt/cray/netcdf/4.4.1.1.3/GNU/5.1/lib' '-L/opt/cray/fftw/3.3.4.8/interlagos/lib' '-L/opt/cray/libsci/16.11.1/GNU/6.1/x86_64/lib' '-L/opt/cray/dmapp/default/lib64' '-L/opt/cray/mpt/7.6.3/gni/mpich-gnu/5.1/lib' '-L/opt/cray/dmapp/default/lib64' '-L/opt/cray/mpt/7.6.3/gni/mpich-gnu/5.1/lib' '-L/opt/cray/rca/1.0.0-2.0502.60530.1.63.gem/lib64' '-L/opt/cray/atp/2.1.1/libApp' '-shared-libgcc']
+  link line: [ /opt/gcc/6.3.0/snos/libexec/gcc/x86_64-suse-linux/6.3.0/collect2 -plugin /opt/gcc/6.3.0/snos/libexec/gcc/x86_64-suse-linux/6.3.0/liblto_plugin.so -plugin-opt=/opt/gcc/6.3.0/snos/libexec/gcc/x86_64-suse-linux/6.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccnWElIi.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_e0ed5 /usr/lib/../lib64/crt1.o /usr/lib/../lib64/crti.o /opt/gcc/6.3.0/snos/lib/gcc/x86_64-suse-linux/6.3.0/crtbegin.o -L/opt/cray/hdf5/1.10.0.3/GNU/5.1/lib -L/opt/cray/netcdf/4.4.1.1.3/GNU/5.1/lib -L/opt/cray/fftw/3.3.4.8/interlagos/lib -L/opt/cray/libsci/16.11.1/GNU/6.1/x86_64/lib -L/opt/cray/dmapp/default/lib64 -L/opt/cray/mpt/7.6.3/gni/mpich-gnu/5.1/lib -L/opt/cray/dmapp/default/lib64 -L/opt/cray/mpt/7.6.3/gni/mpich-gnu/5.1/lib -L/opt/cray/rca/1.0.0-2.0502.60530.1.63.gem/lib64 -L/opt/cray/atp/2.1.1/libApp -L/opt/gcc/6.3.0/snos/lib/gcc/x86_64-suse-linux/6.3.0 -L/opt/gcc/6.3.0/snos/lib/gcc/x86_64-suse-linux/6.3.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/autofs/nccs-svm1_sw/titan/.swci/0-login/opt/spack/20170612/linux-suse_linux11-x86_64/gcc-5.3.0/git-2.13.0-znpqlkovoclvlt5rwm3rkpk7d2m56ez2/lib -L/opt/gcc/6.3.0/snos/lib/gcc/x86_64-suse-linux/6.3.0/../../.. CMakeFiles/cmTC_e0ed5.dir/CMakeCXXCompilerABI.cpp.o -rpath=/opt/cray/gcc-libs -Bdynamic --no-as-needed -lAtpSigHandler -lAtpSigHCommData --undefined=_ATP_Data_Globals --undefined=__atpHandlerInstall -lrca --as-needed -lhdf5_hl --no-as-needed --as-needed -lhdf5 --no-as-needed --as-needed -lhdf5_hl_cpp --no-as-needed --as-needed -lhdf5_cpp --no-as-needed --as-needed -lnetcdf --no-as-needed --as-needed -lnetcdf_c++4 --no-as-needed -lfftw3f_mpi -lfftw3f_threads -lfftw3f -lfftw3_mpi -lfftw3_threads -lfftw3 --as-needed -lsci_gnu_61_mpi --no-as-needed --as-needed -lsci_gnu_61 --no-as-needed --as-needed -lmpich_gnu_51 --no-as-needed --as-needed -lmpichcxx_gnu_51 --no-as-needed --as-needed -lgfortran -lquadmath --no-as-needed --as-needed -lm --no-as-needed --as-needed -lpthread --no-as-needed -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /opt/gcc/6.3.0/snos/lib/gcc/x86_64-suse-linux/6.3.0/crtend.o /usr/lib/../lib64/crtn.o]
+    arg [/opt/gcc/6.3.0/snos/libexec/gcc/x86_64-suse-linux/6.3.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/opt/gcc/6.3.0/snos/libexec/gcc/x86_64-suse-linux/6.3.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/opt/gcc/6.3.0/snos/libexec/gcc/x86_64-suse-linux/6.3.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccnWElIi.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_e0ed5] ==> ignore
+    arg [/usr/lib/../lib64/crt1.o] ==> ignore
+    arg [/usr/lib/../lib64/crti.o] ==> ignore
+    arg [/opt/gcc/6.3.0/snos/lib/gcc/x86_64-suse-linux/6.3.0/crtbegin.o] ==> ignore
+    arg [-L/opt/cray/hdf5/1.10.0.3/GNU/5.1/lib] ==> dir [/opt/cray/hdf5/1.10.0.3/GNU/5.1/lib]
+    arg [-L/opt/cray/netcdf/4.4.1.1.3/GNU/5.1/lib] ==> dir [/opt/cray/netcdf/4.4.1.1.3/GNU/5.1/lib]
+    arg [-L/opt/cray/fftw/3.3.4.8/interlagos/lib] ==> dir [/opt/cray/fftw/3.3.4.8/interlagos/lib]
+    arg [-L/opt/cray/libsci/16.11.1/GNU/6.1/x86_64/lib] ==> dir [/opt/cray/libsci/16.11.1/GNU/6.1/x86_64/lib]
+    arg [-L/opt/cray/dmapp/default/lib64] ==> dir [/opt/cray/dmapp/default/lib64]
+    arg [-L/opt/cray/mpt/7.6.3/gni/mpich-gnu/5.1/lib] ==> dir [/opt/cray/mpt/7.6.3/gni/mpich-gnu/5.1/lib]
+    arg [-L/opt/cray/dmapp/default/lib64] ==> dir [/opt/cray/dmapp/default/lib64]
+    arg [-L/opt/cray/mpt/7.6.3/gni/mpich-gnu/5.1/lib] ==> dir [/opt/cray/mpt/7.6.3/gni/mpich-gnu/5.1/lib]
+    arg [-L/opt/cray/rca/1.0.0-2.0502.60530.1.63.gem/lib64] ==> dir [/opt/cray/rca/1.0.0-2.0502.60530.1.63.gem/lib64]
+    arg [-L/opt/cray/atp/2.1.1/libApp] ==> dir [/opt/cray/atp/2.1.1/libApp]
+    arg [-L/opt/gcc/6.3.0/snos/lib/gcc/x86_64-suse-linux/6.3.0] ==> dir [/opt/gcc/6.3.0/snos/lib/gcc/x86_64-suse-linux/6.3.0]
+    arg [-L/opt/gcc/6.3.0/snos/lib/gcc/x86_64-suse-linux/6.3.0/../../../../lib64] ==> dir [/opt/gcc/6.3.0/snos/lib/gcc/x86_64-suse-linux/6.3.0/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/autofs/nccs-svm1_sw/titan/.swci/0-login/opt/spack/20170612/linux-suse_linux11-x86_64/gcc-5.3.0/git-2.13.0-znpqlkovoclvlt5rwm3rkpk7d2m56ez2/lib] ==> dir [/autofs/nccs-svm1_sw/titan/.swci/0-login/opt/spack/20170612/linux-suse_linux11-x86_64/gcc-5.3.0/git-2.13.0-znpqlkovoclvlt5rwm3rkpk7d2m56ez2/lib]
+    arg [-L/opt/gcc/6.3.0/snos/lib/gcc/x86_64-suse-linux/6.3.0/../../..] ==> dir [/opt/gcc/6.3.0/snos/lib/gcc/x86_64-suse-linux/6.3.0/../../..]
+    arg [CMakeFiles/cmTC_e0ed5.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-rpath=/opt/cray/gcc-libs] ==> ignore
+    arg [-Bdynamic] ==> ignore
+    arg [--no-as-needed] ==> ignore
+    arg [-lAtpSigHandler] ==> lib [AtpSigHandler]
+    arg [-lAtpSigHCommData] ==> lib [AtpSigHCommData]
+    arg [--undefined=_ATP_Data_Globals] ==> ignore
+    arg [--undefined=__atpHandlerInstall] ==> ignore
+    arg [-lrca] ==> lib [rca]
+    arg [--as-needed] ==> ignore
+    arg [-lhdf5_hl] ==> lib [hdf5_hl]
+    arg [--no-as-needed] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lhdf5] ==> lib [hdf5]
+    arg [--no-as-needed] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lhdf5_hl_cpp] ==> lib [hdf5_hl_cpp]
+    arg [--no-as-needed] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lhdf5_cpp] ==> lib [hdf5_cpp]
+    arg [--no-as-needed] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lnetcdf] ==> lib [netcdf]
+    arg [--no-as-needed] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lnetcdf_c++4] ==> lib [netcdf_c++4]
+    arg [--no-as-needed] ==> ignore
+    arg [-lfftw3f_mpi] ==> lib [fftw3f_mpi]
+    arg [-lfftw3f_threads] ==> lib [fftw3f_threads]
+    arg [-lfftw3f] ==> lib [fftw3f]
+    arg [-lfftw3_mpi] ==> lib [fftw3_mpi]
+    arg [-lfftw3_threads] ==> lib [fftw3_threads]
+    arg [-lfftw3] ==> lib [fftw3]
+    arg [--as-needed] ==> ignore
+    arg [-lsci_gnu_61_mpi] ==> lib [sci_gnu_61_mpi]
+    arg [--no-as-needed] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lsci_gnu_61] ==> lib [sci_gnu_61]
+    arg [--no-as-needed] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lmpich_gnu_51] ==> lib [mpich_gnu_51]
+    arg [--no-as-needed] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lmpichcxx_gnu_51] ==> lib [mpichcxx_gnu_51]
+    arg [--no-as-needed] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgfortran] ==> lib [gfortran]
+    arg [-lquadmath] ==> lib [quadmath]
+    arg [--no-as-needed] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lm] ==> lib [m]
+    arg [--no-as-needed] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lpthread] ==> lib [pthread]
+    arg [--no-as-needed] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/opt/gcc/6.3.0/snos/lib/gcc/x86_64-suse-linux/6.3.0/crtend.o] ==> ignore
+    arg [/usr/lib/../lib64/crtn.o] ==> ignore
+  collapse library dir [/opt/cray/hdf5/1.10.0.3/GNU/5.1/lib] ==> [/opt/cray/hdf5/1.10.0.3/GNU/5.1/lib]
+  collapse library dir [/opt/cray/netcdf/4.4.1.1.3/GNU/5.1/lib] ==> [/opt/cray/netcdf/4.4.1.1.3/GNU/5.1/lib]
+  collapse library dir [/opt/cray/fftw/3.3.4.8/interlagos/lib] ==> [/opt/cray/fftw/3.3.4.8/interlagos/lib]
+  collapse library dir [/opt/cray/libsci/16.11.1/GNU/6.1/x86_64/lib] ==> [/opt/cray/libsci/16.11.1/GNU/6.1/x86_64/lib]
+  collapse library dir [/opt/cray/dmapp/default/lib64] ==> [/opt/cray/dmapp/default/lib64]
+  collapse library dir [/opt/cray/mpt/7.6.3/gni/mpich-gnu/5.1/lib] ==> [/opt/cray/mpt/7.6.3/gni/mpich-gnu/5.1/lib]
+  collapse library dir [/opt/cray/dmapp/default/lib64] ==> [/opt/cray/dmapp/default/lib64]
+  collapse library dir [/opt/cray/mpt/7.6.3/gni/mpich-gnu/5.1/lib] ==> [/opt/cray/mpt/7.6.3/gni/mpich-gnu/5.1/lib]
+  collapse library dir [/opt/cray/rca/1.0.0-2.0502.60530.1.63.gem/lib64] ==> [/opt/cray/rca/1.0.0-2.0502.60530.1.63.gem/lib64]
+  collapse library dir [/opt/cray/atp/2.1.1/libApp] ==> [/opt/cray/atp/2.1.1/libApp]
+  collapse library dir [/opt/gcc/6.3.0/snos/lib/gcc/x86_64-suse-linux/6.3.0] ==> [/opt/gcc/6.3.0/snos/lib/gcc/x86_64-suse-linux/6.3.0]
+  collapse library dir [/opt/gcc/6.3.0/snos/lib/gcc/x86_64-suse-linux/6.3.0/../../../../lib64] ==> [/opt/gcc/6.3.0/snos/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/autofs/nccs-svm1_sw/titan/.swci/0-login/opt/spack/20170612/linux-suse_linux11-x86_64/gcc-5.3.0/git-2.13.0-znpqlkovoclvlt5rwm3rkpk7d2m56ez2/lib] ==> [/autofs/nccs-svm1_sw/titan/.swci/0-login/opt/spack/20170612/linux-suse_linux11-x86_64/gcc-5.3.0/git-2.13.0-znpqlkovoclvlt5rwm3rkpk7d2m56ez2/lib]
+  collapse library dir [/opt/gcc/6.3.0/snos/lib/gcc/x86_64-suse-linux/6.3.0/../../..] ==> [/opt/gcc/6.3.0/snos/lib]
+  implicit libs: [AtpSigHandler;AtpSigHCommData;rca;hdf5_hl;hdf5;hdf5_hl_cpp;hdf5_cpp;netcdf;netcdf_c++4;fftw3f_mpi;fftw3f_threads;fftw3f;fftw3_mpi;fftw3_threads;fftw3;sci_gnu_61_mpi;sci_gnu_61;mpich_gnu_51;mpichcxx_gnu_51;gfortran;quadmath;m;pthread;stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit dirs: [/opt/cray/hdf5/1.10.0.3/GNU/5.1/lib;/opt/cray/netcdf/4.4.1.1.3/GNU/5.1/lib;/opt/cray/fftw/3.3.4.8/interlagos/lib;/opt/cray/libsci/16.11.1/GNU/6.1/x86_64/lib;/opt/cray/dmapp/default/lib64;/opt/cray/mpt/7.6.3/gni/mpich-gnu/5.1/lib;/opt/cray/rca/1.0.0-2.0502.60530.1.63.gem/lib64;/opt/cray/atp/2.1.1/libApp;/opt/gcc/6.3.0/snos/lib/gcc/x86_64-suse-linux/6.3.0;/opt/gcc/6.3.0/snos/lib64;/lib64;/usr/lib64;/autofs/nccs-svm1_sw/titan/.swci/0-login/opt/spack/20170612/linux-suse_linux11-x86_64/gcc-5.3.0/git-2.13.0-znpqlkovoclvlt5rwm3rkpk7d2m56ez2/lib;/opt/gcc/6.3.0/snos/lib]
+  implicit fwks: []
+
+
+
+
+Detecting CXX [-std=c++1z] compiler features compiled with the following output:
+Change Dir: /lustre/atlas/proj-shared/csc143/dhuang/workflow-bench-master/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_1c181/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_1c181.dir/build.make CMakeFiles/cmTC_1c181.dir/build
+gmake[1]: Entering directory `/lustre/atlas2/csc143/proj-shared/dhuang/workflow-bench-master/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_1c181.dir/feature_tests.cxx.o
+/opt/cray/craype/2.5.13/bin/CC    -std=c++1z -o CMakeFiles/cmTC_1c181.dir/feature_tests.cxx.o -c /lustre/atlas/proj-shared/csc143/dhuang/workflow-bench-master/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_1c181
+/autofs/nccs-svm1_sw/titan/.swci/0-login/opt/spack/20180315/linux-suse_linux11-x86_64/gcc-5.3.0/cmake-3.11.3-f2xxt5vasvlzrefneolaxu4rgko7cjnb/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1c181.dir/link.txt --verbose=1
+/opt/cray/craype/2.5.13/bin/CC       -dynamic CMakeFiles/cmTC_1c181.dir/feature_tests.cxx.o  -o cmTC_1c181 
+gmake[1]: Leaving directory `/lustre/atlas2/csc143/proj-shared/dhuang/workflow-bench-master/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++14] compiler features compiled with the following output:
+Change Dir: /lustre/atlas/proj-shared/csc143/dhuang/workflow-bench-master/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_19a30/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_19a30.dir/build.make CMakeFiles/cmTC_19a30.dir/build
+gmake[1]: Entering directory `/lustre/atlas2/csc143/proj-shared/dhuang/workflow-bench-master/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_19a30.dir/feature_tests.cxx.o
+/opt/cray/craype/2.5.13/bin/CC    -std=c++14 -o CMakeFiles/cmTC_19a30.dir/feature_tests.cxx.o -c /lustre/atlas/proj-shared/csc143/dhuang/workflow-bench-master/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_19a30
+/autofs/nccs-svm1_sw/titan/.swci/0-login/opt/spack/20180315/linux-suse_linux11-x86_64/gcc-5.3.0/cmake-3.11.3-f2xxt5vasvlzrefneolaxu4rgko7cjnb/bin/cmake -E cmake_link_script CMakeFiles/cmTC_19a30.dir/link.txt --verbose=1
+/opt/cray/craype/2.5.13/bin/CC       -dynamic CMakeFiles/cmTC_19a30.dir/feature_tests.cxx.o  -o cmTC_19a30 
+gmake[1]: Leaving directory `/lustre/atlas2/csc143/proj-shared/dhuang/workflow-bench-master/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: /lustre/atlas/proj-shared/csc143/dhuang/workflow-bench-master/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_3beaa/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_3beaa.dir/build.make CMakeFiles/cmTC_3beaa.dir/build
+gmake[1]: Entering directory `/lustre/atlas2/csc143/proj-shared/dhuang/workflow-bench-master/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_3beaa.dir/feature_tests.cxx.o
+/opt/cray/craype/2.5.13/bin/CC    -std=c++11 -o CMakeFiles/cmTC_3beaa.dir/feature_tests.cxx.o -c /lustre/atlas/proj-shared/csc143/dhuang/workflow-bench-master/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_3beaa
+/autofs/nccs-svm1_sw/titan/.swci/0-login/opt/spack/20180315/linux-suse_linux11-x86_64/gcc-5.3.0/cmake-3.11.3-f2xxt5vasvlzrefneolaxu4rgko7cjnb/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3beaa.dir/link.txt --verbose=1
+/opt/cray/craype/2.5.13/bin/CC       -dynamic CMakeFiles/cmTC_3beaa.dir/feature_tests.cxx.o  -o cmTC_3beaa 
+gmake[1]: Leaving directory `/lustre/atlas2/csc143/proj-shared/dhuang/workflow-bench-master/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: /lustre/atlas/proj-shared/csc143/dhuang/workflow-bench-master/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_f7790/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_f7790.dir/build.make CMakeFiles/cmTC_f7790.dir/build
+gmake[1]: Entering directory `/lustre/atlas2/csc143/proj-shared/dhuang/workflow-bench-master/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f7790.dir/feature_tests.cxx.o
+/opt/cray/craype/2.5.13/bin/CC    -std=c++98 -o CMakeFiles/cmTC_f7790.dir/feature_tests.cxx.o -c /lustre/atlas/proj-shared/csc143/dhuang/workflow-bench-master/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_f7790
+/autofs/nccs-svm1_sw/titan/.swci/0-login/opt/spack/20180315/linux-suse_linux11-x86_64/gcc-5.3.0/cmake-3.11.3-f2xxt5vasvlzrefneolaxu4rgko7cjnb/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f7790.dir/link.txt --verbose=1
+/opt/cray/craype/2.5.13/bin/CC       -dynamic CMakeFiles/cmTC_f7790.dir/feature_tests.cxx.o  -o cmTC_f7790 
+gmake[1]: Leaving directory `/lustre/atlas2/csc143/proj-shared/dhuang/workflow-bench-master/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates

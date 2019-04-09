@@ -1,0 +1,2 @@
+/usr/bin/ar qc libheat3d.a  CMakeFiles/heat3d.dir/explicitPar.c.o CMakeFiles/heat3d.dir/explUtilPar.c.o CMakeFiles/heat3d.dir/updateBound.c.o CMakeFiles/heat3d.dir/readParam.c.o
+/usr/bin/ranlib libheat3d.a

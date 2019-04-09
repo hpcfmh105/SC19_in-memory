@@ -1,0 +1,161 @@
+cmake_minimum_required(VERSION 2.6 FATAL_ERROR)
+
+SET(CMAKE_C_COMPILER cc)
+SET(CMAKE_CXX_COMPILER CC)
+message("----environemnt variable mpich $ENV{CRAY_MPICH2_DIR}")
+SET(MPI_INCLUDE_PATH "$ENV{CRAY_MPICH2_DIR}/include")
+SET(LAMMPS_INCLUDE_DIR "/lustre/atlas/proj-shared/csc143/dhuang/lammps-22Aug18/src")
+set(LAMMPS_LIBRARY_STATIC "/lustre/atlas/proj-shared/csc143/dhuang/lammps-22Aug18/build/liblammps.a")
+set(LAMMPS_LIBRARY_SHARED "-L/lustre/atlas/proj-shared/csc143/dhuang/lammps-22Aug18/build -llammps")
+
+SET(HEAT3D_INCLUDE_DIR "/lustre/atlas/proj-shared/csc143/dhuang/workflow-bench-master/all-transports/adios-all/heat3d-adios")
+
+project("lbm_adios")
+message("----MPI INCLUDE PATH ${MPI_INCLUDE_PATH}")
+
+# mpi
+#set(MPI_C_LIBRARIES "$ENV{CRAY_MPICH2_DIR}/lib/libmpich.a  $ENV{CRAY_MPICH2_DIR}/lib/libmpichcxx.a")
+message("---MPI LIB ${MPI_C_LIBRARIES}")
+#set(common_library ${common_library} "$ENV{CRAY_MPICH2_DIR}/lib/libmpich.a  $ENV{CRAY_MPICH2_DIR}/lib/libmpichcxx.a")
+
+#if(TRANSPORT_LIB)
+#    message("-- Including transport method in ${TRANSPORT_LIB} is loaded...")
+#else()
+#    message(FATAL_ERROR "-- should either specify build type or toolchain file")
+#endif()
+
+message("----current cxx flags is ${CMAKE_CXX_FLAGS}")
+#SET(CMAKE_C_FLAGS  " -g -fopenmp -O3 -DDEBUG")
+
+
+IF($ENV{CRAYPE_LINK_TYPE} MATCHES "dynamic")
+
+#SET(CMAKE_CXX_FLAGS  "-g -fopenmp -O3 -DDEBUG")
+#SET(CMAKE_C_FLAGS  " -g -fPIC -fopenmp -O3 -DDEBUG -DUSE_SAME_LOCK -DNODIMES")
+#SET(CMAKE_CXX_FLAGS  "-g -fPIC -fopenmp -O3 -DDEBUG -DUSE_SAME_LOCK -DNODIMES")
+SET(CMAKE_C_FLAGS  " -g -fPIC -fopenmp -O3   -DDEBUG -DUSE_SAME_LOCK")
+
+SET(CMAKE_CXX_FLAGS  "-g -fPIC -fopenmp -O3  -DDEBUG -DUSE_SAME_LOCK")
+#SET(CMAKE_C_FLAGS  "  -O3 -DNDEBUG")
+
+#SET(CMAKE_CXX_FLAGS  " -O3 -DNDEBUG")
+
+SET(CMAKE_EXE_LINKER_FLAGS  "-g -fPIC -fopenmp -O3  -std=c++11")
+#SET(CMAKE_EXE_LINKER_FLAGS  "  -O3 -DNDEBUG")
+
+ELSE()
+
+SET(CMAKE_C_FLAGS  " -g -fPIC -fopenmp -O3 -DDEBUG -DUSE_SAME_LOCK -DNODIMES")
+SET(CMAKE_CXX_FLAGS  "-g -fPIC -fopenmp -O3 -DDEBUG -DUSE_SAME_LOCK -DNODIMES")
+#SET(CMAKE_C_FLAGS  " -g -fPIC -fopenmp -O3  -DDEBUG -DUSE_SAME_LOCK")
+
+#SET(CMAKE_CXX_FLAGS  "-g -fPIC -fopenmp -O3 -DDEBUG -DUSE_SAME_LOCK")
+#SET(CMAKE_C_FLAGS  "  -O3 -DNDEBUG")
+
+#SET(CMAKE_CXX_FLAGS  " -O3 -DNDEBUG")
+
+SET(CMAKE_EXE_LINKER_FLAGS  "-g -fPIC -fopenmp -O3 -std=c++11")
+
+ENDIF($ENV{CRAYPE_LINK_TYPE} MATCHES "dynamic")
+option(all_transports "build all transports" ON)
+option(use_itac "build with itac" OFF)
+option(build_zipper "build zipper runtim" OFF)
+
+option(USE_SAME_LOCK "Use same lock in dspaces" OFF)
+option(BARRIER_STAMP "barrier after broadcast version in consumer" ON)
+
+if(NOT USE_SAME_LOCK)
+    set(DS_MAX_VERSION "3")
+endif()
+
+configure_file(
+    "${PROJECT_SOURCE_DIR}/config.h.in"
+    "${PROJECT_BINARY_DIR}/config.h"
+     @ONLY
+    )
+
+include_directories("${PROJECT_BINARY_DIR}")
+include_directories(include)
+
+
+set(common_library "m")
+
+#itac
+if(use_itac)
+    add_definitions(-DV_T)
+    set(VT_ROOT $ENV{VT_ROOT} CACHE PATH "The path vt")
+    message("itac enabled! with ${VT_ROOT}")
+    include_directories(${VT_ROOT}/include)
+    ### see VT_ADD_LIBS
+    #set(vt_library ${INTEL_VT}  $ENV{VT_ADD_LIBS})
+    set(vt_library "-L$ENV{VT_SLIB_DIR} -lVT $ENV{VT_ADD_LIBS}" CACHE STRING "itac link flags")
+    set(common_library ${common_library} ${vt_library})
+   #set(common_library ${common_library} "-L/opt/intel/itac/2017.3.030/intel64/lib -lVT -ldwarf -lelf -lvtunwind" )
+endif(use_itac)
+
+# mpi
+#find_package(MPI REQUIRED)
+
+# Dan modify the sequnce of loading decaf is cirtical to build successfully
+set(DECAF_INCLUDE_DIR "/lustre/atlas/proj-shared/csc143/dhuang/sc15/code/decaf/install/include")
+set(DECAF_LIB_PATH "/lustre/atlas/proj-shared/csc143/dhuang/sc15/code/decaf/install/lib")
+find_library(BCA_LIB_PATH NAMES bca PATHS /lustre/atlas/proj-shared/csc143/dhuang/sc15/code/decaf/install/lib)
+find_library(BREDALA_DATAMODEL_LIB_PATH NAMES  bredala_datamodel PATHS /lustre/atlas/proj-shared/csc143/dhuang/sc15/code/decaf/install/lib)
+find_library(BREDALA_TRANSPORT_MPI_LIB_PATH NAMES bredala_transport_mpi PATHS /lustre/atlas/proj-shared/csc143/dhuang/sc15/code/decaf/install/lib)
+find_library(DCA_LIB_PATH NAMES  dca PATHS /lustre/atlas/proj-shared/csc143/dhuang/sc15/code/decaf/install/lib)
+find_library(DECAF_LIB_PATH NAMES  decaf PATHS /lustre/atlas/proj-shared/csc143/dhuang/sc15/code/decaf/install/lib)
+set(DECAF_LIB_PATH "/lustre/atlas/proj-shared/csc143/dhuang/sc15/code/decaf/install/lib/libdecaf.so")
+find_library(MANALA_LIB_PATH NAMES manala PATHS /lustre/atlas/proj-shared/csc143/dhuang/sc15/code/decaf/install/lib)
+find_library(PNG_LIB_PATH NAMES png PATHS /lustre/atlas/proj-shared/csc143/dhuang/sc15/libpng-1.6.36/build/lib)
+find_library(JPEG_LIB_PATH NAMES jpeg PATHS /lustre/atlas/proj-shared/csc143/dhuang/sc15/code/jpeg-6b)
+
+set(common_library ${common_library} ${PNG_LIB_PATH} ${JPEG_LIB_PATH} "-lz" -I${DECAF_INCLUDE_DIR} ${DECAF_LIB_PATH} ${MANALA_LIB_PATH} ${BREDALA_DATAMODEL_LIB_PATH} ${BREDALA_TRANSPORT_MPI_LIB_PATH} ${BCA_LIB_PATH} ${DCA_LIB_PATH} ${MPI_INCLUDE_DIR})
+#set(common_library ${common_library} "-I/lustre/atlas/proj-shared/csc143/dhuang/sc15/code/boost_1_64_0/install/include -L/lustre/atlas/proj-shared/csc143/dhuang/sc15/code/boost_1_64_0/install/lib -lboost_date_time -lboost_filesystem -lboost_graph -lboost_iostreams -lboost_math_c99 -lboost_math_c99f -lboost_math_c99l -lboost_math_tr1 -lboost_math_tr1f -lboost_math_tr1l -lboost_prg_exec_monitor -lboost_program_options -lboost_python -lboost_regex -lboost_serialization -lboost_signals -lboost_system -lboost_test_exec_monitor -lboost_thread -lboost_unit_test_framework -lboost_wave -lboost_wserialization -lmpich -lmpichcxx")
+set(common_library ${common_library} "-I/lustre/atlas/proj-shared/csc143/dhuang/sc15/code/boost_1_64_0/install/include -L/lustre/atlas/proj-shared/csc143/dhuang/sc15/code/boost_1_64_0/install/lib -lboost_serialization  -lboost_wserialization")
+
+message("-----common library: ${common_library}")
+
+add_definitions ("-DENABLE_TIMING")
+add_definitions ("-DTRANSPORT_MPI")
+#add_definitions ("-DBOOST_LIBRARY=/home/cass2014/Code/decaf/boost_1_64_0/install/lib")
+#add_definitions ("-DUSE_DATASPACES -DENABLE_TIMING -Wall -Wextra")
+#add_definitions ("-DUSE_DATASPACES -DHAS_KEEP -DENABLE_TIMING -Wall -Wextra")
+#add_definitions ("-DUSE_DIMES -DENABLE_TIMING -Wall -Wextra")
+#add_definitions ("-DUSE_DIMES -DHAS_KEEP -DENABLE_TIMING -Wall -Wextra") 
+
+set(BOOST_DIR "/lustre/atlas/proj-shared/csc143/dhuang/sc15/code/boost_1_64_0/install")
+include_directories(${MPI_INCLUDE_PATH} ${CMAKE_SOURCE_DIR} ${CMAKE_SOURCE_DIR}/analysis ${CMAKE_SOURCE_DIR}/msd ${CMAKE_SOURCE_DIR}/lbm ${DECAF_INCLUDE_PATH})
+include_directories(${BOOST_DIR}/include ${BOOST_DIR}/include/boost ${BOOST_DIR}/include/boost/serialization)
+include_directories($ENV{SENSEI_INSTALL}/include $ENV{SENSEI_INSTALL}/include/timer)
+include_directories($ENV{VTK_DIR}/include/vtk-7.0)
+#include_directories( ${CMAKE_SOURCE_DIR} ${CMAKE_SOURCE_DIR}/analysis ${CMAKE_SOURCE_DIR}/msd ${CMAKE_SOURCE_DIR}/lbm)
+set(EXECUTABLE_OUTPUT_PATH "${CMAKE_BINARY_DIR}/bin")
+set(CMAKE_LIBRARY_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/lib")
+
+
+
+## lbm-nmoments
+#add_subdirectory(lbm)
+add_subdirectory(nmoments-anal)
+
+
+## lammps-msd
+#if(LAMMPS_INCLUDE_DIR)
+    add_subdirectory(msd-anal)
+#endif()
+
+## bind different transports to applications
+#if(all_transports)
+    add_subdirectory(all-transports)
+#endif(all_transports)
+
+## zipper
+#if(build_zipper)
+#    add_subdirectory(zipper)
+#endif(build_zipper)
+
+
+## tests
+add_subdirectory(tests)
+
+

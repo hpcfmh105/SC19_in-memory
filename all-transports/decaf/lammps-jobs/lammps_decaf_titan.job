@@ -1,0 +1,112 @@
+#!/bin/bash
+#    Begin PBS directives
+#PBS -A csc143
+#PBS -N lammps-decaf
+#PBS -j oe
+#PBS -q debug
+#PBS -l walltime=00:20:00,nodes=6
+#PBS -l gres=atlas1%atlas2
+#    End PBS directives and begin shell commands
+
+
+
+NSTOP=10
+
+# procs placement
+num_apps=3
+
+# slots used by this app
+procs_this_app=(32 32 16)
+
+# number of nodes used by this app
+nodes_this_app=(2 2 1)
+
+
+
+PBS_O_HOME=${MYPROJ}
+PBS_O_WORKDIR=${MYPROJ}/workflow-bench-master
+export SCRATCH_DIR=${MYPROJ}/sc15/results/lammps_decaf/${procs_this_app[0]}v${procs_this_app[1]}v${procs_this_app[2]}
+
+
+
+#################################################### 
+
+export MyTransport=${trans}
+
+export OMP_NUM_THREADS=1
+
+export CM_INTERFACE=ib0
+
+export DECAF_PREFIX=/lustre/atlas/proj-shared/csc143/dhuang/sc15/code/decaf/install
+
+BUILD_DIR=${PBS_O_WORKDIR}/build
+
+
+#################################################### 
+
+env|grep '^HAS' # trace enabled?
+env|grep '^OMP' # trace enabled?
+
+#module load remora
+
+#module load libfabric
+#module load boost
+#module load phdf5
+#module list
+
+
+
+echo "procs is \[ ${procs_this_app[*]}\], nodes is \[${nodes_this_app[*]}\]"
+
+export BUILD_DIR=${PBS_O_WORKDIR}/build
+
+#This job runs with 3 nodes  
+#ibrun in verbose mode will give binding detail  #BUILD=${PBS_O_WORKDIR}/build_dspaces/bin
+PBS_RESULTDIR=${SCRATCH_DIR}/results
+
+
+
+mkdir -pv ${PBS_RESULTDIR}
+tune_stripe_count=-1
+lfs setstripe --stripe-size 1m --stripe-count ${tune_stripe_count} ${PBS_RESULTDIR}
+mkdir -pv ${SCRATCH_DIR}
+cd ${SCRATCH_DIR}
+#cp -R ${PBS_O_WORKDIR}/global_range_select/arrays.xml ${SCRATCH_DIR}
+
+
+# this scrWorkspaces/General_Data_Broker/lbm_adios/scripts
+
+export procs_prod=${procs_this_app[0]}
+export procs_link=${procs_this_app[1]}
+export procs_con=${procs_this_app[2]}
+
+procs_all=$((procs_prod + procs_con + procs_link))
+
+# generate graph
+PYTHON_RUN="python $PBS_O_WORKDIR/all-transports/decaf/lammps_decaf.py -n ${procs_all}"
+$PYTHON_RUN &> python.log
+echo "python run $PYTHON_RUN"
+
+
+# copy input file
+infile=in.lj.32v16.txt
+cp ${PBS_O_WORKDIR}/scripts/titan/lammps_input/$infile ./$infile
+
+cmd="$BUILD_DIR/bin/lammps_decaf $NSTOP $infile"
+
+
+
+#Dan modify load python and wraprun at service nodes
+moudle load wraprun
+export LD_LIBRARY_PATH=/lib64:$LD_LIBRARY_PATH
+## order is prod/link/consumer
+MPI_CMD="aprun -n ${procs_prod} $cmd : -n ${procs_link}  $cmd : -n ${procs_con} $cmd"
+echo launch mpi with cmd $MPI_CMD
+
+$MPI_CMD &> lammps_decaf.log
+
+## Wait for the entire workflow to finish
+wait
+
+export CRAYPE_LINK_TYPE=
+

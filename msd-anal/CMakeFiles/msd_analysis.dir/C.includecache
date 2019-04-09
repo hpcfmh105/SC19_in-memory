@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/lustre/atlas/proj-shared/csc143/dhuang/workflow-bench-master/msd-anal/run_msd.c
+stdio.h
+-
+stdlib.h
+-
+run_msd.h
+/lustre/atlas/proj-shared/csc143/dhuang/workflow-bench-master/msd-anal/run_msd.h
+
+/lustre/atlas/proj-shared/csc143/dhuang/workflow-bench-master/msd-anal/run_msd.h
+mpi.h
+/lustre/atlas/proj-shared/csc143/dhuang/workflow-bench-master/msd-anal/mpi.h
+
+/opt/cray/mpt/7.6.3/gni/mpich-gnu/5.1/include/cray_version.h
+
+/opt/cray/mpt/7.6.3/gni/mpich-gnu/5.1/include/mpi.h
+cray_version.h
+/opt/cray/mpt/7.6.3/gni/mpich-gnu/5.1/include/cray_version.h
+stddef.h
+-
+cstdint
+-
+stdint.h
+-
+mpio.h
+/opt/cray/mpt/7.6.3/gni/mpich-gnu/5.1/include/mpio.h
+mpicxx.h
+/opt/cray/mpt/7.6.3/gni/mpich-gnu/5.1/include/mpicxx.h
+
+/opt/cray/mpt/7.6.3/gni/mpich-gnu/5.1/include/mpicxx.h
+stdio.h
+-
+
+/opt/cray/mpt/7.6.3/gni/mpich-gnu/5.1/include/mpio.h
+mpi.h
+/opt/cray/mpt/7.6.3/gni/mpich-gnu/5.1/include/mpi.h
+

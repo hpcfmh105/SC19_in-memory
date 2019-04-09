@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/ccs/home/dhuang/workflow-bench-master/nmoments-anal/run_analysis.c
+run_analysis.h
+/ccs/home/dhuang/workflow-bench-master/nmoments-anal/run_analysis.h
+
+/ccs/home/dhuang/workflow-bench-master/nmoments-anal/run_analysis.h
+stdio.h
+-
+string.h
+-
+mpi.h
+-
+time.h
+/ccs/home/dhuang/workflow-bench-master/nmoments-anal/time.h
+math.h
+-
+unistd.h
+-
+

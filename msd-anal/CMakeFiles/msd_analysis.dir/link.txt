@@ -1,0 +1,2 @@
+/usr/bin/ar qc libmsd_analysis.a  CMakeFiles/msd_analysis.dir/run_msd.c.o
+/usr/bin/ranlib libmsd_analysis.a

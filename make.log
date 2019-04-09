@@ -1,0 +1,70 @@
+[  5%] Built target nmoments_analysis
+[ 10%] Built target msd_analysis
+[ 18%] Built target adaptor
+[ 27%] Built target lammps_mpiio_con
+[ 32%] Built target lammps_adios_prod
+[ 40%] Built target lammps_adios_con
+[ 45%] Built target heat3d_adios_con
+[ 59%] Built target heat3d
+[ 72%] Built target heat3d_adios_prod
+[ 75%] Building CXX object all-transports/decaf/CMakeFiles/mod_heat3d_decaf.dir/heat3d_decaf.cpp.o
+/lustre/atlas/proj-shared/csc143/dhuang/workflow-bench-master/all-transports/decaf/heat3d_decaf.cpp: In function 'void prod(decaf::Decaf*, int, std::__cxx11::string)':
+/lustre/atlas/proj-shared/csc143/dhuang/workflow-bench-master/all-transports/decaf/heat3d_decaf.cpp:118:16: error: 'class decaf::Decaf' has no member named 'prod_comm_handler'; did you mean 'prod_comm_handle'?
+  comm = decaf->prod_comm_handler();
+                ^~~~~~~~~~~~~~~~~
+/lustre/atlas/proj-shared/csc143/dhuang/workflow-bench-master/all-transports/decaf/heat3d_decaf.cpp:285:17: error: invalid conversion from 'int*' to 'int' [-fpermissive]
+    for (int i = xs; i <= xe; i++){
+                 ^~
+/lustre/atlas/proj-shared/csc143/dhuang/workflow-bench-master/all-transports/decaf/heat3d_decaf.cpp:285:26: error: ISO C++ forbids comparison between pointer and integer [-fpermissive]
+    for (int i = xs; i <= xe; i++){
+                          ^~
+/lustre/atlas/proj-shared/csc143/dhuang/workflow-bench-master/all-transports/decaf/heat3d_decaf.cpp:286:22: error: invalid conversion from 'int*' to 'int' [-fpermissive]
+         for (int j = ys; j <= ye; j++){
+                      ^~
+/lustre/atlas/proj-shared/csc143/dhuang/workflow-bench-master/all-transports/decaf/heat3d_decaf.cpp:286:31: error: ISO C++ forbids comparison between pointer and integer [-fpermissive]
+         for (int j = ys; j <= ye; j++){
+                               ^~
+/lustre/atlas/proj-shared/csc143/dhuang/workflow-bench-master/all-transports/decaf/heat3d_decaf.cpp:287:25: error: invalid conversion from 'int*' to 'int' [-fpermissive]
+             for(int k = zs; k <= ze; k++){
+                         ^~
+/lustre/atlas/proj-shared/csc143/dhuang/workflow-bench-master/all-transports/decaf/heat3d_decaf.cpp:287:34: error: ISO C++ forbids comparison between pointer and integer [-fpermissive]
+             for(int k = zs; k <= ze; k++){
+                                  ^~
+/lustre/atlas/proj-shared/csc143/dhuang/workflow-bench-master/all-transports/decaf/heat3d_decaf.cpp:328:22: error: missing template arguments before '==' token
+             if (rank == 0)
+                      ^~
+/lustre/atlas/proj-shared/csc143/dhuang/workflow-bench-master/all-transports/decaf/heat3d_decaf.cpp:331:25: error: 'timestep' was not declared in this scope
+                         timestep, nlocal);
+                         ^~~~~~~~
+/lustre/atlas/proj-shared/csc143/dhuang/workflow-bench-master/all-transports/decaf/heat3d_decaf.cpp:331:35: error: 'nlocal' was not declared in this scope
+                         timestep, nlocal);
+                                   ^~~~~~
+/lustre/atlas/proj-shared/csc143/dhuang/workflow-bench-master/all-transports/decaf/heat3d_decaf.cpp:484:11: error: return-statement with a value, in function returning 'void' [-fpermissive]
+    return 0;
+           ^
+/lustre/atlas/proj-shared/csc143/dhuang/workflow-bench-master/all-transports/decaf/heat3d_decaf.cpp: In function 'void con(decaf::Decaf*, int)':
+/lustre/atlas/proj-shared/csc143/dhuang/workflow-bench-master/all-transports/decaf/heat3d_decaf.cpp:506:32: error: redeclaration of 'double t_analy'
+     double t_read_1, t_read_2, t_analy;
+                                ^~~~~~~
+/lustre/atlas/proj-shared/csc143/dhuang/workflow-bench-master/all-transports/decaf/heat3d_decaf.cpp:498:32: note: 'double t_analy' previously declared here
+     double global_t_analy = 0, t_analy = 0;
+                                ^~~~~~~
+/lustre/atlas/proj-shared/csc143/dhuang/workflow-bench-master/all-transports/decaf/heat3d_decaf.cpp:545:5: error: 'step' was not declared in this scope
+     step = 0;
+     ^~~~
+/lustre/atlas/proj-shared/csc143/dhuang/workflow-bench-master/all-transports/decaf/heat3d_decaf.cpp: In function 'void run(Workflow&, int)':
+/lustre/atlas/proj-shared/csc143/dhuang/workflow-bench-master/all-transports/decaf/heat3d_decaf.cpp:660:27: error: too few arguments to function 'void prod(decaf::Decaf*, int, std::__cxx11::string)'
+         prod(decaf, nsteps);
+                           ^
+/lustre/atlas/proj-shared/csc143/dhuang/workflow-bench-master/all-transports/decaf/heat3d_decaf.cpp:34:6: note: declared here
+ void prod(Decaf* decaf, int nsteps, string infile)
+      ^~~~
+/lustre/atlas/proj-shared/csc143/dhuang/workflow-bench-master/all-transports/decaf/heat3d_decaf.cpp:662:18: error: too few arguments to function 'void con(decaf::Decaf*, int)'
+         con(decaf);
+                  ^
+/lustre/atlas/proj-shared/csc143/dhuang/workflow-bench-master/all-transports/decaf/heat3d_decaf.cpp:488:6: note: declared here
+ void con(Decaf* decaf, int nsteps)
+      ^~~
+make[2]: *** [all-transports/decaf/CMakeFiles/mod_heat3d_decaf.dir/heat3d_decaf.cpp.o] Error 1
+make[1]: *** [all-transports/decaf/CMakeFiles/mod_heat3d_decaf.dir/all] Error 2
+make: *** [all] Error 2

@@ -1,0 +1,97 @@
+The system is: Linux - 3.0.101-0.47.106.29-default - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /opt/cray/craype/2.5.13/bin/cc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is PGI, found in "/ccs/home/dhuang/workflow-bench-master/cmake/CMakeFiles/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /opt/cray/craype/2.5.13/bin/CC 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+"CMakeCXXCompilerId.cpp", line 67: warning: conversion from a string literal to
+          "char *" is deprecated
+  char* info_compiler = "INFO" ":" "compiler[" COMPILER_ID "]";
+                        ^
+
+"CMakeCXXCompilerId.cpp", line 151: warning: conversion from a string literal
+          to "char *" is deprecated
+  char* info_platform = "INFO" ":" "platform[" PLATFORM_ID "]";
+                        ^
+
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is PGI, found in "/ccs/home/dhuang/workflow-bench-master/cmake/CMakeFiles/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /ccs/home/dhuang/workflow-bench-master/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+gmake[1]: Entering directory `/autofs/nccs-svm1_home1/dhuang/workflow-bench-master/cmake/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /ccs/home/dhuang/workflow-bench-master/cmake/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/testCCompiler.c.o
+/opt/cray/craype/2.5.13/bin/cc    -o CMakeFiles/cmTryCompileExec.dir/testCCompiler.c.o   -c /ccs/home/dhuang/workflow-bench-master/cmake/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/opt/cray/craype/2.5.13/bin/cc       -fPIC CMakeFiles/cmTryCompileExec.dir/testCCompiler.c.o  -o cmTryCompileExec  
+gmake[1]: Leaving directory `/autofs/nccs-svm1_home1/dhuang/workflow-bench-master/cmake/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /ccs/home/dhuang/workflow-bench-master/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+gmake[1]: Entering directory `/autofs/nccs-svm1_home1/dhuang/workflow-bench-master/cmake/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /ccs/home/dhuang/workflow-bench-master/cmake/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CMakeCCompilerABI.c.o
+/opt/cray/craype/2.5.13/bin/cc    -o CMakeFiles/cmTryCompileExec.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake/Modules/CMakeCCompilerABI.c
+Linking C executable cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/opt/cray/craype/2.5.13/bin/cc       -fPIC CMakeFiles/cmTryCompileExec.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec  
+gmake[1]: Leaving directory `/autofs/nccs-svm1_home1/dhuang/workflow-bench-master/cmake/CMakeFiles/CMakeTmp'
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /ccs/home/dhuang/workflow-bench-master/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+gmake[1]: Entering directory `/autofs/nccs-svm1_home1/dhuang/workflow-bench-master/cmake/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /ccs/home/dhuang/workflow-bench-master/cmake/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec.dir/testCXXCompiler.cxx.o
+/opt/cray/craype/2.5.13/bin/CC     -o CMakeFiles/cmTryCompileExec.dir/testCXXCompiler.cxx.o -c /ccs/home/dhuang/workflow-bench-master/cmake/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/opt/cray/craype/2.5.13/bin/CC        -fPIC CMakeFiles/cmTryCompileExec.dir/testCXXCompiler.cxx.o  -o cmTryCompileExec  
+gmake[1]: Leaving directory `/autofs/nccs-svm1_home1/dhuang/workflow-bench-master/cmake/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /ccs/home/dhuang/workflow-bench-master/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+gmake[1]: Entering directory `/autofs/nccs-svm1_home1/dhuang/workflow-bench-master/cmake/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /ccs/home/dhuang/workflow-bench-master/cmake/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec.dir/CMakeCXXCompilerABI.cpp.o
+/opt/cray/craype/2.5.13/bin/CC     -o CMakeFiles/cmTryCompileExec.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/opt/cray/craype/2.5.13/bin/CC        -fPIC CMakeFiles/cmTryCompileExec.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec  
+gmake[1]: Leaving directory `/autofs/nccs-svm1_home1/dhuang/workflow-bench-master/cmake/CMakeFiles/CMakeTmp'
+
+

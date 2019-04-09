@@ -1,0 +1,2 @@
+/usr/bin/ar qc libadaptor.a  CMakeFiles/adaptor.dir/adios_adaptor.c.o CMakeFiles/adaptor.dir/ds_adaptor.c.o
+/usr/bin/ranlib libadaptor.a

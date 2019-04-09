@@ -1,0 +1,2 @@
+/usr/bin/ar qc libmod_heat3d_decaf.a  CMakeFiles/mod_heat3d_decaf.dir/heat3d_decaf.cpp.o CMakeFiles/mod_heat3d_decaf.dir/explUtilPar.c.o CMakeFiles/mod_heat3d_decaf.dir/updateBound.c.o CMakeFiles/mod_heat3d_decaf.dir/readParam.c.o
+/usr/bin/ranlib libmod_heat3d_decaf.a
