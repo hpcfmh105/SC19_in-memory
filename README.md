@@ -1,3 +1,3 @@
-Workflow bench mark
 
-Detailed documentation see [here](http://iupu-hpc.github.io/workflow-bench)
+Benchmark and workflow for HPC in-memory computing libraries. 
+
